@@ -14,67 +14,99 @@
           "lessons": [
             {
               "id": "dc_u1_01",
-              "title": "Limits intro"
+              "title": "Limits intro",
+              "youtubeVideoId": "a2Ia_ZlUCaQ",
+              "youtubeTitle": "Infinite limits intro | Limits and continuity | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u1_02",
-              "title": "Estimating limits from graphs"
+              "title": "Estimating limits from graphs",
+              "youtubeVideoId": "-mm8apA-EmI",
+              "youtubeTitle": "Estimating limit values from graphs : Khan Academy"
             },
             {
               "id": "dc_u1_03",
-              "title": "Estimating limits from tables"
+              "title": "Estimating limits from tables",
+              "youtubeVideoId": "QvNf3t3Uu7Y",
+              "youtubeTitle": "Estimating limits from tables : Khan Academy"
             },
             {
               "id": "dc_u1_04",
-              "title": "Formal definition of limits (epsilon-delta)"
+              "title": "Formal definition of limits (epsilon-delta)",
+              "youtubeVideoId": "w70af5Ou70M",
+              "youtubeTitle": "Epsilon-delta definition of limits"
             },
             {
               "id": "dc_u1_05",
-              "title": "Properties of limits"
+              "title": "Properties of limits",
+              "youtubeVideoId": "lSwsAFgWqR8",
+              "youtubeTitle": "Limit properties | Limits and continuity | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u1_06",
-              "title": "Limits by direct substitution"
+              "title": "Limits by direct substitution",
+              "youtubeVideoId": "cfOcOgr0E7U",
+              "youtubeTitle": "Limits by direct substitution | Limits and continuity | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u1_07",
-              "title": "Limits using algebraic manipulation"
+              "title": "Limits using algebraic manipulation",
+              "youtubeVideoId": "nDXFgexOM5c",
+              "youtubeTitle": "Limits at infinity using algebra | Limits | Differential Calculus | Khan Academy"
             },
             {
               "id": "dc_u1_08",
-              "title": "Strategy in finding limits"
+              "title": "Strategy in finding limits",
+              "youtubeVideoId": "CY7mNuh3CCw",
+              "youtubeTitle": "Strategy in finding limits (Hindi)"
             },
             {
               "id": "dc_u1_09",
-              "title": "Squeeze theorem"
+              "title": "Squeeze theorem",
+              "youtubeVideoId": "4bexQIyBlTE",
+              "youtubeTitle": "Squeeze theorem"
             },
             {
               "id": "dc_u1_10",
-              "title": "Types of discontinuities"
+              "title": "Types of discontinuities",
+              "youtubeVideoId": "NVGBq_V-F6U",
+              "youtubeTitle": "Types of discontinuities | Limits and continuity | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u1_11",
-              "title": "Continuity at a point"
+              "title": "Continuity at a point",
+              "youtubeVideoId": "3KMqU5j7irw",
+              "youtubeTitle": "Continuity at a point | Limits and continuity | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u1_12",
-              "title": "Continuity over an interval"
+              "title": "Continuity over an interval",
+              "youtubeVideoId": "yCKLWeuSfxE",
+              "youtubeTitle": "Continuity over an interval : Khan Academy"
             },
             {
               "id": "dc_u1_13",
-              "title": "Removing discontinuities"
+              "title": "Removing discontinuities",
+              "youtubeVideoId": "YbNpRmUaTqQ",
+              "youtubeTitle": "Removing discontinuities (factoring)"
             },
             {
               "id": "dc_u1_14",
-              "title": "Infinite limits"
+              "title": "Infinite limits",
+              "youtubeVideoId": "a2Ia_ZlUCaQ",
+              "youtubeTitle": "Infinite limits intro | Limits and continuity | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u1_15",
-              "title": "Limits at infinity"
+              "title": "Limits at infinity",
+              "youtubeVideoId": "nDXFgexOM5c",
+              "youtubeTitle": "Limits at infinity using algebra | Limits | Differential Calculus | Khan Academy"
             },
             {
               "id": "dc_u1_16",
-              "title": "Intermediate value theorem"
+              "title": "Intermediate value theorem",
+              "youtubeVideoId": "9xgO-EJ3sr0",
+              "youtubeTitle": "Intermediate value theorem | Existence theorems | AP Calculus AB | Khan Academy"
             }
           ]
         },
@@ -86,55 +118,81 @@
           "lessons": [
             {
               "id": "dc_u2_01",
-              "title": "Average vs. instantaneous rate of change"
+              "title": "Average vs. instantaneous rate of change",
+              "youtubeVideoId": "V2mHd3-MtXc",
+              "youtubeTitle": "Average and Instantaneous Rate of a chemical reaction | Chemical Kinetics | Chemistry | Khan Academy"
             },
             {
               "id": "dc_u2_02",
-              "title": "Secant lines"
+              "title": "Secant lines",
+              "youtubeVideoId": "0z_MDIWMBwU",
+              "youtubeTitle": "Secant lines & average rate of change | Derivatives introduction | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u2_03",
-              "title": "Derivative definition"
+              "title": "Derivative definition",
+              "youtubeVideoId": "N2PpRnFqnqY",
+              "youtubeTitle": "Derivative as a concept | Derivatives introduction | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u2_04",
-              "title": "Estimating derivatives"
+              "title": "Estimating derivatives",
+              "youtubeVideoId": "tk-dtEd-T1w",
+              "youtubeTitle": "Estimate derivatives : Khan Academy"
             },
             {
               "id": "dc_u2_05",
-              "title": "Differentiability"
+              "title": "Differentiability",
+              "youtubeVideoId": "FIt1RNiCO6U",
+              "youtubeTitle": "IIT JEE Differentiability and Boundedness"
             },
             {
               "id": "dc_u2_06",
-              "title": "Power rule"
+              "title": "Power rule",
+              "youtubeVideoId": "bRZmfc1YFsQ",
+              "youtubeTitle": "Power rule | Derivative rules | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u2_07",
-              "title": "Derivative rules: constant, sum, difference, and constant multiple"
+              "title": "Derivative rules: constant, sum, difference, and constant multiple",
+              "youtubeVideoId": "uCLZyTliZj0",
+              "youtubeTitle": "Basic derivative rules (Part 2) | Derivative rules | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u2_08",
-              "title": "Combining the power rule with other derivative rules"
+              "title": "Combining the power rule with other derivative rules",
+              "youtubeVideoId": "TI-j-fr6c4A",
+              "youtubeTitle": "Chain rule with the power rule"
             },
             {
               "id": "dc_u2_09",
-              "title": "Derivatives of cos(x), sin(x), eˣ, and ln(x)"
+              "title": "Derivatives of cos(x), sin(x), eˣ, and ln(x)",
+              "youtubeVideoId": "tGUbrAIqJSI",
+              "youtubeTitle": "Derivatives of sin(x), cos(x), tan(x), eˣ & ln(x)"
             },
             {
               "id": "dc_u2_10",
-              "title": "Product rule"
+              "title": "Product rule",
+              "youtubeVideoId": "79ngr0Bur38",
+              "youtubeTitle": "Product rule | Derivative rules | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u2_11",
-              "title": "Quotient rule"
+              "title": "Quotient rule",
+              "youtubeVideoId": "eJUGoAtF-7A",
+              "youtubeTitle": "Quotient rule for derivative of tan x"
             },
             {
               "id": "dc_u2_12",
-              "title": "Derivatives of tan(x), cot(x), sec(x), and csc(x)"
+              "title": "Derivatives of tan(x), cot(x), sec(x), and csc(x)",
+              "youtubeVideoId": "DomK-ItJUBs",
+              "youtubeTitle": "Derivatives of tan(x), cot(x), sec(x), and csc(x) : Khan Academy"
             },
             {
               "id": "dc_u2_13",
-              "title": "Proof videos"
+              "title": "Proof videos",
+              "youtubeVideoId": "wblW_M_HVQ8",
+              "youtubeTitle": "Proof by induction | Sequences, series and induction | Precalculus | Khan Academy"
             }
           ]
         },
@@ -146,51 +204,75 @@
           "lessons": [
             {
               "id": "dc_u3_01",
-              "title": "Chain rule"
+              "title": "Chain rule",
+              "youtubeVideoId": "XIQ-KnsAsbg",
+              "youtubeTitle": "The Chain Rule"
             },
             {
               "id": "dc_u3_02",
-              "title": "More chain rule practice"
+              "title": "More chain rule practice",
+              "youtubeVideoId": "DYb-AN-lK94",
+              "youtubeTitle": "Even More Chain Rule"
             },
             {
               "id": "dc_u3_03",
-              "title": "Implicit differentiation"
+              "title": "Implicit differentiation",
+              "youtubeVideoId": "sL6MC-lKOrw",
+              "youtubeTitle": "Implicit Differentiation"
             },
             {
               "id": "dc_u3_04",
-              "title": "Implicit differentiation (advanced examples)"
+              "title": "Implicit differentiation (advanced examples)",
+              "youtubeVideoId": "sL6MC-lKOrw",
+              "youtubeTitle": "Implicit Differentiation"
             },
             {
               "id": "dc_u3_05",
-              "title": "Differentiating inverse functions"
+              "title": "Differentiating inverse functions",
+              "youtubeVideoId": "XOs9vVmzE70",
+              "youtubeTitle": "Derivatives of inverse functions | Advanced derivatives | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u3_06",
-              "title": "Derivatives of inverse trigonometric functions"
+              "title": "Derivatives of inverse trigonometric functions",
+              "youtubeVideoId": "QXFQ3aujdsc",
+              "youtubeTitle": "Derivatives of inverse trigonometric functions : Khan Academy"
             },
             {
               "id": "dc_u3_07",
-              "title": "Strategy in differentiating functions"
+              "title": "Strategy in differentiating functions",
+              "youtubeVideoId": "C3MI_mspN3o",
+              "youtubeTitle": "Worked example: Differentiating related functions | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u3_08",
-              "title": "Differentiation using multiple rules"
+              "title": "Differentiation using multiple rules",
+              "youtubeVideoId": "Qgj2_4r3VBs",
+              "youtubeTitle": "Differentiating using multiple rules: strategy | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u3_09",
-              "title": "Second derivatives"
+              "title": "Second derivatives",
+              "youtubeVideoId": "WC5VYKI807Q",
+              "youtubeTitle": "Second derivatives | Advanced derivatives | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u3_10",
-              "title": "Disguised derivatives"
+              "title": "Disguised derivatives",
+              "youtubeVideoId": "WaQiBQnMCT4",
+              "youtubeTitle": "Disguised derivatives"
             },
             {
               "id": "dc_u3_11",
-              "title": "Logarithmic differentiation"
+              "title": "Logarithmic differentiation",
+              "youtubeVideoId": "WZPpbkVESVk",
+              "youtubeTitle": "Logarithmic functions differentiation | Advanced derivatives | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u3_12",
-              "title": "Proof videos"
+              "title": "Proof videos",
+              "youtubeVideoId": "1reblXFlM6I",
+              "youtubeTitle": "Change of base formula proof | Logarithms | Algebra II | Khan Academy"
             }
           ]
         },
@@ -202,35 +284,51 @@
           "lessons": [
             {
               "id": "dc_u4_01",
-              "title": "Meaning of the derivative in context"
+              "title": "Meaning of the derivative in context",
+              "youtubeVideoId": "O7z4IA9s6tA",
+              "youtubeTitle": "Interpreting the meaning of the derivative in context : Khan Academy : AP Calculus"
             },
             {
               "id": "dc_u4_02",
-              "title": "Straight-line motion"
+              "title": "Straight-line motion",
+              "youtubeVideoId": "mivsdTHu7ao",
+              "youtubeTitle": "Position | Motion in a straight line | Physics | Khan Academy"
             },
             {
               "id": "dc_u4_03",
-              "title": "Non-motion applications of derivatives"
+              "title": "Non-motion applications of derivatives",
+              "youtubeVideoId": "Wkjz1LlX1CQ",
+              "youtubeTitle": "Marginal cost & differential calculus | Applications of derivatives | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u4_04",
-              "title": "Introduction to related rates"
+              "title": "Introduction to related rates",
+              "youtubeVideoId": "kQF9pOqmS0U",
+              "youtubeTitle": "Related rates intro | Applications of derivatives | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u4_05",
-              "title": "Solving related rates problems"
+              "title": "Solving related rates problems",
+              "youtubeVideoId": "TX69hjJpBFk",
+              "youtubeTitle": "Analyzing related rates problems: expressions | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u4_06",
-              "title": "Approximation with local linearity"
+              "title": "Approximation with local linearity",
+              "youtubeVideoId": "m0der2CYiS8",
+              "youtubeTitle": "Approximation with local linearity : Khan Academy : AP Calculus"
             },
             {
               "id": "dc_u4_07",
-              "title": "L'Hôpital's rule"
+              "title": "L'Hôpital's rule",
+              "youtubeVideoId": "SIB4WDYF5DQ",
+              "youtubeTitle": "Proof of special case of l'Hôpital's rule | Differential Calculus | Khan Academy"
             },
             {
               "id": "dc_u4_08",
-              "title": "L'Hôpital's rule: composite exponential functions"
+              "title": "L'Hôpital's rule: composite exponential functions",
+              "youtubeVideoId": "Ot0FxL8Vl7I",
+              "youtubeTitle": "L'Hopital's Rule to solve for variable | Differential Calculus | Khan Academy"
             }
           ]
         },
@@ -242,55 +340,81 @@
           "lessons": [
             {
               "id": "dc_u5_01",
-              "title": "Mean value theorem"
+              "title": "Mean value theorem",
+              "youtubeVideoId": "59UeshgSuEE",
+              "youtubeTitle": "Mean value theorem for integrals | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u5_02",
-              "title": "Extreme value theorem and critical points"
+              "title": "Extreme value theorem and critical points",
+              "youtubeVideoId": "bZYTDst1MOo",
+              "youtubeTitle": "Extreme value theorem | Existence theorems | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u5_03",
-              "title": "Intervals on which a function is increasing or decreasing"
+              "title": "Intervals on which a function is increasing or decreasing",
+              "youtubeVideoId": "KxOp3s9ottg",
+              "youtubeTitle": "Introduction to increasing, decreasing, positive or negative intervals | Algebra I | Khan Academy"
             },
             {
               "id": "dc_u5_04",
-              "title": "Relative (local) extrema"
+              "title": "Relative (local) extrema",
+              "youtubeVideoId": "x09FpMmGB4A",
+              "youtubeTitle": "Worked example: finding relative extrema | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u5_05",
-              "title": "Absolute (global) extrema"
+              "title": "Absolute (global) extrema",
+              "youtubeVideoId": "JXVGPEOQCb8",
+              "youtubeTitle": "Finding absolute extrema on a closed interval | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u5_06",
-              "title": "Concavity and inflection points intro"
+              "title": "Concavity and inflection points intro",
+              "youtubeVideoId": "dIE22eL6q90",
+              "youtubeTitle": "Inflection Points and Concavity Intuition"
             },
             {
               "id": "dc_u5_07",
-              "title": "Analyzing concavity and inflection points"
+              "title": "Analyzing concavity and inflection points",
+              "youtubeVideoId": "dIE22eL6q90",
+              "youtubeTitle": "Inflection Points and Concavity Intuition"
             },
             {
               "id": "dc_u5_08",
-              "title": "Second derivative test"
+              "title": "Second derivative test",
+              "youtubeVideoId": "m1FhUjMMv30",
+              "youtubeTitle": "Second partial derivative test"
             },
             {
               "id": "dc_u5_09",
-              "title": "Sketching curves"
+              "title": "Sketching curves",
+              "youtubeVideoId": "2-dUHLHeyTY",
+              "youtubeTitle": "Graphing a  Basic Function"
             },
             {
               "id": "dc_u5_10",
-              "title": "Connecting f, f', and f''"
+              "title": "Connecting f, f', and f''",
+              "youtubeVideoId": "elugjT_Np3M",
+              "youtubeTitle": "Connecting f, f', and f'' graphically | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u5_11",
-              "title": "Solving optimization problems"
+              "title": "Solving optimization problems",
+              "youtubeVideoId": "vwUV2IDLP8Q",
+              "youtubeTitle": "Constrained optimization introduction"
             },
             {
               "id": "dc_u5_12",
-              "title": "Analyzing implicit relations"
+              "title": "Analyzing implicit relations",
+              "youtubeVideoId": "ZhOojHeslhs",
+              "youtubeTitle": "Horizontal tangent to implicit curve | AP Calculus AB | Khan Academy"
             },
             {
               "id": "dc_u5_13",
-              "title": "Calculator-active practice"
+              "title": "Calculator-active practice",
+              "youtubeVideoId": "CTIzdbEBweI",
+              "youtubeTitle": "Polar curve area with calculator"
             }
           ]
         },
@@ -302,23 +426,33 @@
           "lessons": [
             {
               "id": "dc_u6_01",
-              "title": "Parametric equations intro"
+              "title": "Parametric equations intro",
+              "youtubeVideoId": "m6c6dlmUT1c",
+              "youtubeTitle": "Parametric equations 1 | Parametric equations and polar coordinates | Precalculus | Khan Academy"
             },
             {
               "id": "dc_u6_02",
-              "title": "Second derivatives of parametric equations"
+              "title": "Second derivatives of parametric equations",
+              "youtubeVideoId": "AXasQLqazWU",
+              "youtubeTitle": "Derivative of a parametric function"
             },
             {
               "id": "dc_u6_03",
-              "title": "Vector-valued functions"
+              "title": "Vector-valued functions",
+              "youtubeVideoId": "c7ByaI3T7Dc",
+              "youtubeTitle": "Partial derivatives of vector-valued functions | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "dc_u6_04",
-              "title": "Planar motion"
+              "title": "Planar motion",
+              "youtubeVideoId": "HFdeHX_wA4k",
+              "youtubeTitle": "Planar motion example: acceleration vector | Advanced derivatives | AP Calculus BC | Khan Academy"
             },
             {
               "id": "dc_u6_05",
-              "title": "Polar functions"
+              "title": "Polar functions",
+              "youtubeVideoId": "ConsnUZGfmw",
+              "youtubeTitle": "Worked example: differentiating polar functions | AP Calculus BC | Khan Academy"
             }
           ]
         }
@@ -338,35 +472,51 @@
           "lessons": [
             {
               "id": "de_u1_01",
-              "title": "Intro to differential equations"
+              "title": "Intro to differential equations",
+              "youtubeVideoId": "-_POEWfygmU",
+              "youtubeTitle": "What is a differential equation"
             },
             {
               "id": "de_u1_02",
-              "title": "Slope fields"
+              "title": "Slope fields",
+              "youtubeVideoId": "8Amgakx5aII",
+              "youtubeTitle": "Creating a slope field | First order differential equations | Khan Academy"
             },
             {
               "id": "de_u1_03",
-              "title": "Euler's Method"
+              "title": "Euler's Method",
+              "youtubeVideoId": "q87L9R9v274",
+              "youtubeTitle": "Euler's method | Differential equations| AP Calculus BC | Khan Academy"
             },
             {
               "id": "de_u1_04",
-              "title": "Separable equations"
+              "title": "Separable equations",
+              "youtubeVideoId": "C5-lz0hcqsE",
+              "youtubeTitle": "Old separable differential equations introduction | Khan Academy"
             },
             {
               "id": "de_u1_05",
-              "title": "Exponential models"
+              "title": "Exponential models",
+              "youtubeVideoId": "s8PKFcrrbNQ",
+              "youtubeTitle": "Identifying Exponential Models"
             },
             {
               "id": "de_u1_06",
-              "title": "Logistic models"
+              "title": "Logistic models",
+              "youtubeVideoId": "j_Taf2Tgggo",
+              "youtubeTitle": "Solving the logistic differential equation part 1 | Khan Academy"
             },
             {
               "id": "de_u1_07",
-              "title": "Exact equations and integrating factors"
+              "title": "Exact equations and integrating factors",
+              "youtubeVideoId": "Pb04ntcDJcQ",
+              "youtubeTitle": "Exact equations example 1 | First order differential equations | Khan Academy"
             },
             {
               "id": "de_u1_08",
-              "title": "Homogeneous equations"
+              "title": "Homogeneous equations",
+              "youtubeVideoId": "UFWAu8Ptth0",
+              "youtubeTitle": "2nd order linear homogeneous differential equations 1 | Khan Academy"
             }
           ]
         },
@@ -378,15 +528,21 @@
           "lessons": [
             {
               "id": "de_u2_01",
-              "title": "Linear homogeneous equations"
+              "title": "Linear homogeneous equations",
+              "youtubeVideoId": "UFWAu8Ptth0",
+              "youtubeTitle": "2nd order linear homogeneous differential equations 1 | Khan Academy"
             },
             {
               "id": "de_u2_02",
-              "title": "Complex and repeated roots of characteristic equation"
+              "title": "Complex and repeated roots of characteristic equation",
+              "youtubeVideoId": "YezsgIlcb68",
+              "youtubeTitle": "Repeated roots of the characteristic equations part 2 | Khan Academy"
             },
             {
               "id": "de_u2_03",
-              "title": "Method of undetermined coefficients"
+              "title": "Method of undetermined coefficients",
+              "youtubeVideoId": "znE4Nq9NJCQ",
+              "youtubeTitle": "Undetermined coefficients 1 | Second order differential equations | Khan Academy"
             }
           ]
         },
@@ -398,19 +554,27 @@
           "lessons": [
             {
               "id": "de_u3_01",
-              "title": "Laplace transform"
+              "title": "Laplace transform",
+              "youtubeVideoId": "OiNh2DswFt4",
+              "youtubeTitle": "Laplace transform 1 | Laplace transform | Differential Equations | Khan Academy"
             },
             {
               "id": "de_u3_02",
-              "title": "Properties of the Laplace transform"
+              "title": "Properties of the Laplace transform",
+              "youtubeVideoId": "vhfjEpQWWeE",
+              "youtubeTitle": "Laplace transform of the dirac delta function | Laplace transform | Khan Academy"
             },
             {
               "id": "de_u3_03",
-              "title": "Laplace transform to solve a differential equation"
+              "title": "Laplace transform to solve a differential equation",
+              "youtubeVideoId": "3uYb-RhM7lU",
+              "youtubeTitle": "Laplace transform to solve an equation | Laplace transform | Differential Equations | Khan Academy"
             },
             {
               "id": "de_u3_04",
-              "title": "The convolution integral"
+              "title": "The convolution integral",
+              "youtubeVideoId": "TJgBEI3drUc",
+              "youtubeTitle": "The convolution and the laplace transform | Laplace transform | Khan Academy"
             }
           ]
         }
@@ -430,83 +594,123 @@
           "lessons": [
             {
               "id": "ic_u1_01",
-              "title": "Accumulations of change introduction"
+              "title": "Accumulations of change introduction",
+              "youtubeVideoId": "TtRAY6Eyp4w",
+              "youtubeTitle": "Negative definite integrals | Integration and accumulation of change | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u1_02",
-              "title": "Approximation with Riemann sums"
+              "title": "Approximation with Riemann sums",
+              "youtubeVideoId": "dEAk0BHBYCM",
+              "youtubeTitle": "Riemann approximation introduction | Accumulation and Riemann sums | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u1_03",
-              "title": "Summation notation review"
+              "title": "Summation notation review",
+              "youtubeVideoId": "vbAQVp7rdi8",
+              "youtubeTitle": "Summation notation intro : Khan Academy"
             },
             {
               "id": "ic_u1_04",
-              "title": "Riemann sums in summation notation"
+              "title": "Riemann sums in summation notation",
+              "youtubeVideoId": "WeVWv_OEJsY",
+              "youtubeTitle": "Riemann sums and sigma notation"
             },
             {
               "id": "ic_u1_05",
-              "title": "Defining integrals with Riemann sums"
+              "title": "Defining integrals with Riemann sums",
+              "youtubeVideoId": "0dDIPzqKgYk",
+              "youtubeTitle": "Definite integrals intro | Accumulation and Riemann sums | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u1_06",
-              "title": "Fundamental theorem of calculus and accumulation functions"
+              "title": "Fundamental theorem of calculus and accumulation functions",
+              "youtubeVideoId": "C7ducZoLKgw",
+              "youtubeTitle": "Fundamental theorem of calculus (Part 1) | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u1_07",
-              "title": "Interpreting the behavior of accumulation functions"
+              "title": "Interpreting the behavior of accumulation functions",
+              "youtubeVideoId": "JXtnSeoOC_E",
+              "youtubeTitle": "Interpreting the behavior of accumulation functions  | Functions |  Post Secondary Mathematics"
             },
             {
               "id": "ic_u1_08",
-              "title": "Properties of definite integrals"
+              "title": "Properties of definite integrals",
+              "youtubeVideoId": "0RdI3-8G4Fs",
+              "youtubeTitle": "Introduction to definite integrals"
             },
             {
               "id": "ic_u1_09",
-              "title": "Fundamental theorem of calculus and definite integrals"
+              "title": "Fundamental theorem of calculus and definite integrals",
+              "youtubeVideoId": "C7ducZoLKgw",
+              "youtubeTitle": "Fundamental theorem of calculus (Part 1) | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u1_10",
-              "title": "Reverse power rule"
+              "title": "Reverse power rule",
+              "youtubeVideoId": "QxbJsg-Vdms",
+              "youtubeTitle": "Reverse power rule | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u1_11",
-              "title": "Indefinite integrals of common functions"
+              "title": "Indefinite integrals of common functions",
+              "youtubeVideoId": "sPPjk4aXzmQ",
+              "youtubeTitle": "Indefinite integral of 1/x | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u1_12",
-              "title": "Definite integrals of common functions"
+              "title": "Definite integrals of common functions",
+              "youtubeVideoId": "7R_DTzVHw5Y",
+              "youtubeTitle": "Finding definite integrals using area formulas | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u1_13",
-              "title": "Integrating with u-substitution"
+              "title": "Integrating with u-substitution",
+              "youtubeVideoId": "7hCsQOKOYS8",
+              "youtubeTitle": "U-substitution with definite integral"
             },
             {
               "id": "ic_u1_14",
-              "title": "Integrating using long division and completing the square"
+              "title": "Integrating using long division and completing the square",
+              "youtubeVideoId": "4u8_AMacu-Y",
+              "youtubeTitle": "Algebraic Long Division"
             },
             {
               "id": "ic_u1_15",
-              "title": "Integrating using trigonometric identities"
+              "title": "Integrating using trigonometric identities",
+              "youtubeVideoId": "EV5dhv0A2wU",
+              "youtubeTitle": "Introduction to trigonometric substitution"
             },
             {
               "id": "ic_u1_16",
-              "title": "Trigonometric substitution"
+              "title": "Trigonometric substitution",
+              "youtubeVideoId": "EV5dhv0A2wU",
+              "youtubeTitle": "Introduction to trigonometric substitution"
             },
             {
               "id": "ic_u1_17",
-              "title": "Integration by parts"
+              "title": "Integration by parts",
+              "youtubeVideoId": "dh__n9FVKA0",
+              "youtubeTitle": "Integration by parts intro | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u1_18",
-              "title": "Integrating using linear partial fractions"
+              "title": "Integrating using linear partial fractions",
+              "youtubeVideoId": "Mt92Ozs7aJg",
+              "youtubeTitle": "Integration with partial fractions | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u1_19",
-              "title": "Improper integrals"
+              "title": "Improper integrals",
+              "youtubeVideoId": "qv7DM5Ph0vU",
+              "youtubeTitle": "Introduction to improper integrals | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u1_20",
-              "title": "Proof videos"
+              "title": "Proof videos",
+              "youtubeVideoId": "1reblXFlM6I",
+              "youtubeTitle": "Change of base formula proof | Logarithms | Algebra II | Khan Academy"
             }
           ]
         },
@@ -518,39 +722,57 @@
           "lessons": [
             {
               "id": "ic_u2_01",
-              "title": "Differential equations introduction"
+              "title": "Differential equations introduction",
+              "youtubeVideoId": "C5-lz0hcqsE",
+              "youtubeTitle": "Old separable differential equations introduction | Khan Academy"
             },
             {
               "id": "ic_u2_02",
-              "title": "Verifying solutions for differential equations"
+              "title": "Verifying solutions for differential equations",
+              "youtubeVideoId": "KZqg4L--YC0",
+              "youtubeTitle": "Verifying solutions to differential equations | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u2_03",
-              "title": "Sketching slope fields"
+              "title": "Sketching slope fields",
+              "youtubeVideoId": "8Amgakx5aII",
+              "youtubeTitle": "Creating a slope field | First order differential equations | Khan Academy"
             },
             {
               "id": "ic_u2_04",
-              "title": "Reasoning using slope fields"
+              "title": "Reasoning using slope fields",
+              "youtubeVideoId": "Ax03UQV9HLM",
+              "youtubeTitle": "Calculus AB/BC – 7.4 Reasoning Using Slope Fields"
             },
             {
               "id": "ic_u2_05",
-              "title": "Approximation with Euler's method"
+              "title": "Approximation with Euler's method",
+              "youtubeVideoId": "_-a-yNubpk8",
+              "youtubeTitle": "Worked example: Euler's method | Differential equations| AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u2_06",
-              "title": "Separation of variables"
+              "title": "Separation of variables",
+              "youtubeVideoId": "C5-lz0hcqsE",
+              "youtubeTitle": "Old separable differential equations introduction | Khan Academy"
             },
             {
               "id": "ic_u2_07",
-              "title": "Particular solutions to differential equations"
+              "title": "Particular solutions to differential equations",
+              "youtubeVideoId": "E444KhRcWSk",
+              "youtubeTitle": "Particular solution to differential equation example | Khan Academy"
             },
             {
               "id": "ic_u2_08",
-              "title": "Exponential models"
+              "title": "Exponential models",
+              "youtubeVideoId": "s8PKFcrrbNQ",
+              "youtubeTitle": "Identifying Exponential Models"
             },
             {
               "id": "ic_u2_09",
-              "title": "Logistic models"
+              "title": "Logistic models",
+              "youtubeVideoId": "j_Taf2Tgggo",
+              "youtubeTitle": "Solving the logistic differential equation part 1 | Khan Academy"
             }
           ]
         },
@@ -562,59 +784,87 @@
           "lessons": [
             {
               "id": "ic_u3_01",
-              "title": "Average value of a function"
+              "title": "Average value of a function",
+              "youtubeVideoId": "0rzL08BHr5c",
+              "youtubeTitle": "Calculating average value of function over interval | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u3_02",
-              "title": "Straight-line motion"
+              "title": "Straight-line motion",
+              "youtubeVideoId": "mivsdTHu7ao",
+              "youtubeTitle": "Position | Motion in a straight line | Physics | Khan Academy"
             },
             {
               "id": "ic_u3_03",
-              "title": "Non-motion applications of integrals"
+              "title": "Non-motion applications of integrals",
+              "youtubeVideoId": "EZbgMfuh9C8",
+              "youtubeTitle": "Planar motion (with integrals) | Applications of definite integrals | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u3_04",
-              "title": "Area: vertical area between curves"
+              "title": "Area: vertical area between curves",
+              "youtubeVideoId": "4bZyfvKazzQ",
+              "youtubeTitle": "Area between curves"
             },
             {
               "id": "ic_u3_05",
-              "title": "Area: horizontal area between curves"
+              "title": "Area: horizontal area between curves",
+              "youtubeVideoId": "4bZyfvKazzQ",
+              "youtubeTitle": "Area between curves"
             },
             {
               "id": "ic_u3_06",
-              "title": "Area: curves that intersect at more than two points"
+              "title": "Area: curves that intersect at more than two points",
+              "youtubeVideoId": "LbTH7MGMNjk",
+              "youtubeTitle": "Area between curves with multiple boundaries"
             },
             {
               "id": "ic_u3_07",
-              "title": "Volume: squares and rectangles cross sections"
+              "title": "Volume: squares and rectangles cross sections",
+              "youtubeVideoId": "_y6zKNoWiKI",
+              "youtubeTitle": "Volume with cross sections: squares and rectangles (no graph) | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u3_08",
-              "title": "Volume: triangles and semicircles cross sections"
+              "title": "Volume: triangles and semicircles cross sections",
+              "youtubeVideoId": "S-agS4YaxxU",
+              "youtubeTitle": "Volume with cross sections: triangle | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u3_09",
-              "title": "Volume: disc method (revolving around x- and y-axes)"
+              "title": "Volume: disc method (revolving around x- and y-axes)",
+              "youtubeVideoId": "jxf7XqvZWWg",
+              "youtubeTitle": "Disc method rotating around vertical line | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u3_10",
-              "title": "Volume: disc method (revolving around other axes)"
+              "title": "Volume: disc method (revolving around other axes)",
+              "youtubeVideoId": "jxf7XqvZWWg",
+              "youtubeTitle": "Disc method rotating around vertical line | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u3_11",
-              "title": "Volume: washer method (revolving around x- and y-axes)"
+              "title": "Volume: washer method (revolving around x- and y-axes)",
+              "youtubeVideoId": "WAPZihVUmzE",
+              "youtubeTitle": "Washer method rotating around vertical line (not y-axis), part 1 | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u3_12",
-              "title": "Volume: washer method (revolving around other axes)"
+              "title": "Volume: washer method (revolving around other axes)",
+              "youtubeVideoId": "WAPZihVUmzE",
+              "youtubeTitle": "Washer method rotating around vertical line (not y-axis), part 1 | AP Calculus AB | Khan Academy"
             },
             {
               "id": "ic_u3_13",
-              "title": "Arc length"
+              "title": "Arc length",
+              "youtubeVideoId": "1BH2TNzAAik",
+              "youtubeTitle": "Finding central angle measure given arc length | Circles | Geometry | Khan Academy"
             },
             {
               "id": "ic_u3_14",
-              "title": "Calculator-active practice"
+              "title": "Calculator-active practice",
+              "youtubeVideoId": "CTIzdbEBweI",
+              "youtubeTitle": "Polar curve area with calculator"
             }
           ]
         },
@@ -626,27 +876,39 @@
           "lessons": [
             {
               "id": "ic_u4_01",
-              "title": "Arc length: parametric curves"
+              "title": "Arc length: parametric curves",
+              "youtubeVideoId": "bb4bSCjlFAw",
+              "youtubeTitle": "Parametric curves | Multivariable calculus | Khan Academy"
             },
             {
               "id": "ic_u4_02",
-              "title": "Planar motion"
+              "title": "Planar motion",
+              "youtubeVideoId": "HFdeHX_wA4k",
+              "youtubeTitle": "Planar motion example: acceleration vector | Advanced derivatives | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u4_03",
-              "title": "Area: polar regions (single curve)"
+              "title": "Area: polar regions (single curve)",
+              "youtubeVideoId": "-cR6FzM1zNE",
+              "youtubeTitle": "Worked example: Area enclosed by cardioid | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u4_04",
-              "title": "Area: polar regions (two curves)"
+              "title": "Area: polar regions (two curves)",
+              "youtubeVideoId": "4bZyfvKazzQ",
+              "youtubeTitle": "Area between curves"
             },
             {
               "id": "ic_u4_05",
-              "title": "Arc length: polar curves"
+              "title": "Arc length: polar curves",
+              "youtubeVideoId": "sFlH7V7QDbQ",
+              "youtubeTitle": "Arc length of petal of polar graph"
             },
             {
               "id": "ic_u4_06",
-              "title": "Calculator-active practice"
+              "title": "Calculator-active practice",
+              "youtubeVideoId": "CTIzdbEBweI",
+              "youtubeTitle": "Polar curve area with calculator"
             }
           ]
         },
@@ -658,75 +920,111 @@
           "lessons": [
             {
               "id": "ic_u5_01",
-              "title": "Convergent and divergent infinite series"
+              "title": "Convergent and divergent infinite series",
+              "youtubeVideoId": "lfZGtjSWcQs",
+              "youtubeTitle": "Convergent and divergent sequences | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_02",
-              "title": "Infinite geometric series"
+              "title": "Infinite geometric series",
+              "youtubeVideoId": "2BgWWsypzLA",
+              "youtubeTitle": "Repeating decimal as infinite geometric series | Precalculus | Khan Academy"
             },
             {
               "id": "ic_u5_03",
-              "title": "nth-term test"
+              "title": "nth-term test",
+              "youtubeVideoId": "1yInzfzDDKY",
+              "youtubeTitle": "nth term divergence test | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_04",
-              "title": "Integral test"
+              "title": "Integral test",
+              "youtubeVideoId": "u1UKIljUWuc",
+              "youtubeTitle": "Integral test | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_05",
-              "title": "Harmonic series and p-series"
+              "title": "Harmonic series and p-series",
+              "youtubeVideoId": "m6ByHObCs6Y",
+              "youtubeTitle": "Harmonic series and 𝑝-series | AP®︎ Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_06",
-              "title": "Comparison tests"
+              "title": "Comparison tests",
+              "youtubeVideoId": "AtbZZiSLemQ",
+              "youtubeTitle": "Limit comparison test | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_07",
-              "title": "Alternating series test"
+              "title": "Alternating series test",
+              "youtubeVideoId": "UsMom3yNsX8",
+              "youtubeTitle": "Alternating series test | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_08",
-              "title": "Ratio test"
+              "title": "Ratio test",
+              "youtubeVideoId": "4L9dSZN5Nvg",
+              "youtubeTitle": "Radius of convergence using Ratio Test"
             },
             {
               "id": "ic_u5_09",
-              "title": "Absolute and conditional convergence"
+              "title": "Absolute and conditional convergence",
+              "youtubeVideoId": "ORTI4kk1okM",
+              "youtubeTitle": "Conditional & absolute convergence | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_10",
-              "title": "Alternating series error bound"
+              "title": "Alternating series error bound",
+              "youtubeVideoId": "gs9O255gdEY",
+              "youtubeTitle": "Alternating series remainder | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_11",
-              "title": "Taylor and Maclaurin polynomials intro"
+              "title": "Taylor and Maclaurin polynomials intro",
+              "youtubeVideoId": "epgwuzzDHsQ",
+              "youtubeTitle": "Taylor & Maclaurin polynomials intro (part 1) | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_12",
-              "title": "Lagrange error bound"
+              "title": "Lagrange error bound",
+              "youtubeVideoId": "IeHlXGpfaeA",
+              "youtubeTitle": "Worked example: estimating e_ using Lagrange error bound | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_13",
-              "title": "Power series intro"
+              "title": "Power series intro",
+              "youtubeVideoId": "DlBQcj_zQk0",
+              "youtubeTitle": "Power series intro | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_14",
-              "title": "Function as a geometric series"
+              "title": "Function as a geometric series",
+              "youtubeVideoId": "EXIUYib9d8M",
+              "youtubeTitle": "Function as a geometric series | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_15",
-              "title": "Maclaurin series of eˣ, sin(x), and cos(x)"
+              "title": "Maclaurin series of eˣ, sin(x), and cos(x)",
+              "youtubeVideoId": "_V9Vx65kVog",
+              "youtubeTitle": "eˣ'in Maclaurin Serisi (Kalkülüs / Seriler)"
             },
             {
               "id": "ic_u5_16",
-              "title": "Representing functions as power series"
+              "title": "Representing functions as power series",
+              "youtubeVideoId": "ixFgd1lFe9g",
+              "youtubeTitle": "Finding function from power series by integrating | Series | AP Calculus BC | Khan Academy"
             },
             {
               "id": "ic_u5_17",
-              "title": "Telescoping series"
+              "title": "Telescoping series",
+              "youtubeVideoId": "5LMzbgfZ8cA",
+              "youtubeTitle": "Divergence of telescoping series"
             },
             {
               "id": "ic_u5_18",
-              "title": "Proof videos"
+              "title": "Proof videos",
+              "youtubeVideoId": "1reblXFlM6I",
+              "youtubeTitle": "Change of base formula proof | Logarithms | Algebra II | Khan Academy"
             }
           ]
         }
@@ -746,31 +1044,45 @@
           "lessons": [
             {
               "id": "la_u1_01",
-              "title": "Vectors"
+              "title": "Vectors",
+              "youtubeVideoId": "5cWB52I-SF0",
+              "youtubeTitle": "Linear Algebra: Introduction to Vectors"
             },
             {
               "id": "la_u1_02",
-              "title": "Linear combinations and spans"
+              "title": "Linear combinations and spans",
+              "youtubeVideoId": "Qm_OS-8COwU",
+              "youtubeTitle": "Linear combinations and span | Vectors and spaces | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u1_03",
-              "title": "Linear dependence and independence"
+              "title": "Linear dependence and independence",
+              "youtubeVideoId": "Alhcv5d_XOs",
+              "youtubeTitle": "More on linear independence | Vectors and spaces | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u1_04",
-              "title": "Subspaces and the basis for a subspace"
+              "title": "Subspaces and the basis for a subspace",
+              "youtubeVideoId": "_uTAdf_AsfQ",
+              "youtubeTitle": "Null space and column space basis | Vectors and spaces | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u1_05",
-              "title": "Vector dot and cross products"
+              "title": "Vector dot and cross products",
+              "youtubeVideoId": "enr7JqvehJs",
+              "youtubeTitle": "Calculating dot and cross products with unit vector notation | Physics | Khan Academy"
             },
             {
               "id": "la_u1_06",
-              "title": "Matrices for solving systems by elimination"
+              "title": "Matrices for solving systems by elimination",
+              "youtubeVideoId": "vA-55wZtLeE",
+              "youtubeTitle": "Solving systems of equations by elimination | Algebra Basics | Khan Academy"
             },
             {
               "id": "la_u1_07",
-              "title": "Null space and column space"
+              "title": "Null space and column space",
+              "youtubeVideoId": "_uTAdf_AsfQ",
+              "youtubeTitle": "Null space and column space basis | Vectors and spaces | Linear Algebra | Khan Academy"
             }
           ]
         },
@@ -782,31 +1094,45 @@
           "lessons": [
             {
               "id": "la_u2_01",
-              "title": "Functions and linear transformations"
+              "title": "Functions and linear transformations",
+              "youtubeVideoId": "BQMyeQOLvpg",
+              "youtubeTitle": "A more formal understanding of functions | Matrix transformations | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u2_02",
-              "title": "Linear transformation examples"
+              "title": "Linear transformation examples",
+              "youtubeVideoId": "lPWfIq5DzqI",
+              "youtubeTitle": "Linear transformation examples: Rotations in R2 | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u2_03",
-              "title": "Transformations and matrix multiplication"
+              "title": "Transformations and matrix multiplication",
+              "youtubeVideoId": "aKhhYguY0DQ",
+              "youtubeTitle": "Matrix multiplication (part 1)"
             },
             {
               "id": "la_u2_04",
-              "title": "Inverse functions and transformations"
+              "title": "Inverse functions and transformations",
+              "youtubeVideoId": "KzaPBzFFLRM",
+              "youtubeTitle": "Understanding inverse functions | Functions and their graphs | Algebra II | Khan Academy"
             },
             {
               "id": "la_u2_05",
-              "title": "Finding inverses and determinants"
+              "title": "Finding inverses and determinants",
+              "youtubeVideoId": "GuFvSwriy1Q",
+              "youtubeTitle": "Invertible matrices and determinants | Matrices | Precalculus | Khan Academy"
             },
             {
               "id": "la_u2_06",
-              "title": "More determinant depth"
+              "title": "More determinant depth",
+              "youtubeVideoId": "QV0jsTiobU4",
+              "youtubeTitle": "Simpler 4x4 determinant | Matrix transformations | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u2_07",
-              "title": "Transpose of a matrix"
+              "title": "Transpose of a matrix",
+              "youtubeVideoId": "TZrKrNVhbjI",
+              "youtubeTitle": "Transpose of a matrix | Matrices | Precalculus | Khan Academy"
             }
           ]
         },
@@ -818,23 +1144,33 @@
           "lessons": [
             {
               "id": "la_u3_01",
-              "title": "Orthogonal complements"
+              "title": "Orthogonal complements",
+              "youtubeVideoId": "QOTjdgmNqlg",
+              "youtubeTitle": "Orthogonal complements | Alternate coordinate systems (bases) | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u3_02",
-              "title": "Orthogonal projections"
+              "title": "Orthogonal projections",
+              "youtubeVideoId": "27vT-NWuw0M",
+              "youtubeTitle": "Introduction to projections | Matrix transformations | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u3_03",
-              "title": "Change of basis"
+              "title": "Change of basis",
+              "youtubeVideoId": "meibWcbGqt4",
+              "youtubeTitle": "Invertible change of basis matrix | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u3_04",
-              "title": "Orthonormal bases and the Gram-Schmidt process"
+              "title": "Orthonormal bases and the Gram-Schmidt process",
+              "youtubeVideoId": "7BFx8pt2aTQ",
+              "youtubeTitle": "Introduction to orthonormal bases | Linear Algebra | Khan Academy"
             },
             {
               "id": "la_u3_05",
-              "title": "Eigen-everything"
+              "title": "Eigen-everything",
+              "youtubeVideoId": "PhfbEr2btGQ",
+              "youtubeTitle": "Introduction to eigenvalues and eigenvectors | Linear Algebra | Khan Academy"
             }
           ]
         }
@@ -854,27 +1190,39 @@
           "lessons": [
             {
               "id": "mc_u1_01",
-              "title": "Introduction to multivariable calculus"
+              "title": "Introduction to multivariable calculus",
+              "youtubeVideoId": "_60sKaoRmhU",
+              "youtubeTitle": "Introduction to the line integral | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u1_02",
-              "title": "Vectors and matrices"
+              "title": "Vectors and matrices",
+              "youtubeVideoId": "xyAuNHPsq-g",
+              "youtubeTitle": "Introduction to matrices"
             },
             {
               "id": "mc_u1_03",
-              "title": "Visualizing scalar-valued functions"
+              "title": "Visualizing scalar-valued functions",
+              "youtubeVideoId": "5FWAVmwMXWg",
+              "youtubeTitle": "Vector fields, introduction | Multivariable calculus | Khan Academy"
             },
             {
               "id": "mc_u1_04",
-              "title": "Visualizing vector-valued functions"
+              "title": "Visualizing vector-valued functions",
+              "youtubeVideoId": "sBldw95xMD4",
+              "youtubeTitle": "Position vector valued functions | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u1_05",
-              "title": "Transformations"
+              "title": "Transformations",
+              "youtubeVideoId": "6nUMiJfHLSA",
+              "youtubeTitle": "Points after rotation | Transformations | Geometry | Khan Academy"
             },
             {
               "id": "mc_u1_06",
-              "title": "Visualizing multivariable functions (articles)"
+              "title": "Visualizing multivariable functions (articles)",
+              "youtubeVideoId": "A1H4j97paI4",
+              "youtubeTitle": "Transforming nonlinear data | More on regression | AP Statistics | Khan Academy"
             }
           ]
         },
@@ -886,55 +1234,81 @@
           "lessons": [
             {
               "id": "mc_u2_01",
-              "title": "Partial derivatives"
+              "title": "Partial derivatives",
+              "youtubeVideoId": "dfvnCHqzK54",
+              "youtubeTitle": "Partial derivatives and graphs"
             },
             {
               "id": "mc_u2_02",
-              "title": "Gradient and directional derivatives"
+              "title": "Gradient and directional derivatives",
+              "youtubeVideoId": "4tdyIGIEtNU",
+              "youtubeTitle": "Directional derivatives and slope"
             },
             {
               "id": "mc_u2_03",
-              "title": "Partial derivative and gradient (articles)"
+              "title": "Partial derivative and gradient (articles)",
+              "youtubeVideoId": "DG9NUPaPVbE",
+              "youtubeTitle": "The Gradient Vector Field"
             },
             {
               "id": "mc_u2_04",
-              "title": "Differentiating parametric curves"
+              "title": "Differentiating parametric curves",
+              "youtubeVideoId": "AXasQLqazWU",
+              "youtubeTitle": "Derivative of a parametric function"
             },
             {
               "id": "mc_u2_05",
-              "title": "Multivariable chain rule"
+              "title": "Multivariable chain rule",
+              "youtubeVideoId": "NO3AqAaAE6o",
+              "youtubeTitle": "Multivariable chain rule"
             },
             {
               "id": "mc_u2_06",
-              "title": "Curvature"
+              "title": "Curvature",
+              "youtubeVideoId": "ugtUGhBSeE0",
+              "youtubeTitle": "Curvature intuition"
             },
             {
               "id": "mc_u2_07",
-              "title": "Partial derivatives of vector-valued functions"
+              "title": "Partial derivatives of vector-valued functions",
+              "youtubeVideoId": "ln43wOC3iC4",
+              "youtubeTitle": "Computing the partial derivative of a vector-valued function"
             },
             {
               "id": "mc_u2_08",
-              "title": "Differentiating vector-valued functions (articles)"
+              "title": "Differentiating vector-valued functions (articles)",
+              "youtubeVideoId": "CX89IRd6hKU",
+              "youtubeTitle": "Calculating E from V(x,y,z): E = - potential gradient | Electrostatic potential | Khan Academy"
             },
             {
               "id": "mc_u2_09",
-              "title": "Divergence"
+              "title": "Divergence",
+              "youtubeVideoId": "uOX7SijjH9w",
+              "youtubeTitle": "Divergence formula, part 1"
             },
             {
               "id": "mc_u2_10",
-              "title": "Curl"
+              "title": "Curl",
+              "youtubeVideoId": "qF9Kz37Ksq0",
+              "youtubeTitle": "2d curl formula"
             },
             {
               "id": "mc_u2_11",
-              "title": "Divergence and curl (articles)"
+              "title": "Divergence and curl (articles)",
+              "youtubeVideoId": "t-W6_fn_1bI",
+              "youtubeTitle": "Displacement current & Ampere Maxwell's law | Electromagnetic waves | Physics | Khan Academy"
             },
             {
               "id": "mc_u2_12",
-              "title": "Laplacian"
+              "title": "Laplacian",
+              "youtubeVideoId": "EW08rD-GFh0",
+              "youtubeTitle": "Laplacian intuition"
             },
             {
               "id": "mc_u2_13",
-              "title": "Jacobian"
+              "title": "Jacobian",
+              "youtubeVideoId": "bohL918kXQk",
+              "youtubeTitle": "The Jacobian matrix"
             }
           ]
         },
@@ -946,27 +1320,39 @@
           "lessons": [
             {
               "id": "mc_u3_01",
-              "title": "Tangent planes and local linearization"
+              "title": "Tangent planes and local linearization",
+              "youtubeVideoId": "o7_zS7Bx2VA",
+              "youtubeTitle": "Local linearization"
             },
             {
               "id": "mc_u3_02",
-              "title": "Quadratic approximations"
+              "title": "Quadratic approximations",
+              "youtubeVideoId": "80bJA_tSbo4",
+              "youtubeTitle": "What do quadratic approximations look like"
             },
             {
               "id": "mc_u3_03",
-              "title": "Optimizing multivariable functions"
+              "title": "Optimizing multivariable functions",
+              "youtubeVideoId": "TrcCbdWwCBc",
+              "youtubeTitle": "Multivariable functions | Multivariable calculus | Khan Academy"
             },
             {
               "id": "mc_u3_04",
-              "title": "Optimizing multivariable functions (articles)"
+              "title": "Optimizing multivariable functions (articles)",
+              "youtubeVideoId": "A1H4j97paI4",
+              "youtubeTitle": "Transforming nonlinear data | More on regression | AP Statistics | Khan Academy"
             },
             {
               "id": "mc_u3_05",
-              "title": "Lagrange multipliers and constrained optimization"
+              "title": "Lagrange multipliers and constrained optimization",
+              "youtubeVideoId": "yuqB-d5MjZA",
+              "youtubeTitle": "Lagrange multipliers, using tangency to solve constrained optimization"
             },
             {
               "id": "mc_u3_06",
-              "title": "Constrained optimization (articles)"
+              "title": "Constrained optimization (articles)",
+              "youtubeVideoId": "vwUV2IDLP8Q",
+              "youtubeTitle": "Constrained optimization introduction"
             }
           ]
         },
@@ -978,47 +1364,69 @@
           "lessons": [
             {
               "id": "mc_u4_01",
-              "title": "Line integrals for scalar functions"
+              "title": "Line integrals for scalar functions",
+              "youtubeVideoId": "t3cJYNdQLYg",
+              "youtubeTitle": "Line integrals and vector fields | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u4_02",
-              "title": "Line integrals for scalar functions (articles)"
+              "title": "Line integrals for scalar functions (articles)",
+              "youtubeVideoId": "t3cJYNdQLYg",
+              "youtubeTitle": "Line integrals and vector fields | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u4_03",
-              "title": "Line integrals in vector fields"
+              "title": "Line integrals in vector fields",
+              "youtubeVideoId": "t3cJYNdQLYg",
+              "youtubeTitle": "Line integrals and vector fields | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u4_04",
-              "title": "Line integrals in vector fields (articles)"
+              "title": "Line integrals in vector fields (articles)",
+              "youtubeVideoId": "NzepwkVoYMY",
+              "youtubeTitle": "Line Integrals in 3D  // Formula & Three Applications"
             },
             {
               "id": "mc_u4_05",
-              "title": "Double integrals"
+              "title": "Double integrals",
+              "youtubeVideoId": "85zGYB-34jQ",
+              "youtubeTitle": "Double integral 1 | Double and triple integrals | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u4_06",
-              "title": "Double integrals (articles)"
+              "title": "Double integrals (articles)",
+              "youtubeVideoId": "85zGYB-34jQ",
+              "youtubeTitle": "Double integral 1 | Double and triple integrals | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u4_07",
-              "title": "Triple integrals"
+              "title": "Triple integrals",
+              "youtubeVideoId": "85zGYB-34jQ",
+              "youtubeTitle": "Double integral 1 | Double and triple integrals | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u4_08",
-              "title": "Change of variables"
+              "title": "Change of variables",
+              "youtubeVideoId": "UvDcEvDC4vg",
+              "youtubeTitle": "Thinking about the changing values of variables and expressions | 6th grade | Khan Academy"
             },
             {
               "id": "mc_u4_09",
-              "title": "Polar, spherical, and cylindrical coordinates"
+              "title": "Polar, spherical, and cylindrical coordinates",
+              "youtubeVideoId": "jexMSlSDubM",
+              "youtubeTitle": "Polar coordinates 1 | Parametric equations and polar coordinates | Precalculus | Khan Academy"
             },
             {
               "id": "mc_u4_10",
-              "title": "Surface integral preliminaries"
+              "title": "Surface integral preliminaries",
+              "youtubeVideoId": "OTXceKRecQA",
+              "youtubeTitle": "Open Surface Integral & Closed Surface Integral | Lec 6 | EMFT (EE) | Crash Course | GATE/ESE 2022"
             },
             {
               "id": "mc_u4_11",
-              "title": "Surface integrals"
+              "title": "Surface integrals",
+              "youtubeVideoId": "9k97m8oWnaY",
+              "youtubeTitle": "Introduction to the surface integral | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u4_12",
@@ -1026,11 +1434,15 @@
             },
             {
               "id": "mc_u4_13",
-              "title": "Flux in 3D"
+              "title": "Flux in 3D",
+              "youtubeVideoId": "m1PPujngqAw",
+              "youtubeTitle": "Flux and magnetic flux"
             },
             {
               "id": "mc_u4_14",
-              "title": "Flux in 3D (articles)"
+              "title": "Flux in 3D (articles)",
+              "youtubeVideoId": "9MN0eTC-vzQ",
+              "youtubeTitle": "Electric flux meaning (& how to calculate it)  | Electrostatics | Physics | Khan Academy"
             }
           ]
         },
@@ -1042,47 +1454,69 @@
           "lessons": [
             {
               "id": "mc_u5_01",
-              "title": "Formal definitions of div and curl (optional reading)"
+              "title": "Formal definitions of div and curl (optional reading)",
+              "youtubeVideoId": "gU-rc-uwIt0",
+              "youtubeTitle": "🔥Lord World: He Awakens the Only SSS-Level Talent, Gaining All Legendary Troops and Heroes!"
             },
             {
               "id": "mc_u5_02",
-              "title": "Green's theorem"
+              "title": "Green's theorem",
+              "youtubeVideoId": "gGXnILbrhsM",
+              "youtubeTitle": "Green's theorem example 1 | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u5_03",
-              "title": "Green's theorem (articles)"
+              "title": "Green's theorem (articles)",
+              "youtubeVideoId": "8SwKD5_VL5o",
+              "youtubeTitle": "Green's Theorem, explained visually"
             },
             {
               "id": "mc_u5_04",
-              "title": "2D divergence theorem"
+              "title": "2D divergence theorem",
+              "youtubeVideoId": "qs0hRHfnzTQ",
+              "youtubeTitle": "Conceptual clarification for 2D divergence theorem | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u5_05",
-              "title": "Stokes' theorem"
+              "title": "Stokes' theorem",
+              "youtubeVideoId": "9iaYNaENVH4",
+              "youtubeTitle": "Stokes' theorem intuition | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u5_06",
-              "title": "Stokes' theorem (articles)"
+              "title": "Stokes' theorem (articles)",
+              "youtubeVideoId": "8SwKD5_VL5o",
+              "youtubeTitle": "Green's Theorem, explained visually"
             },
             {
               "id": "mc_u5_07",
-              "title": "3D divergence theorem"
+              "title": "3D divergence theorem",
+              "youtubeVideoId": "XyiQ2dwJHXE",
+              "youtubeTitle": "3D divergence theorem intuition | Divergence theorem | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u5_08",
-              "title": "Divergence theorem (articles)"
+              "title": "Divergence theorem (articles)",
+              "youtubeVideoId": "vCAFlt4pQSQ",
+              "youtubeTitle": "Divergence theorem proof (part 1) | Divergence theorem | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u5_09",
-              "title": "Proof of Stokes' theorem"
+              "title": "Proof of Stokes' theorem",
+              "youtubeVideoId": "qIBqvr5_QqQ",
+              "youtubeTitle": "Stokes' theorem proof part 1 | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u5_10",
-              "title": "Types of regions in three dimensions"
+              "title": "Types of regions in three dimensions",
+              "youtubeVideoId": "A11AfJ2-3rE",
+              "youtubeTitle": "Type I regions in three dimensions | Divergence theorem | Multivariable Calculus | Khan Academy"
             },
             {
               "id": "mc_u5_11",
-              "title": "Divergence theorem proof"
+              "title": "Divergence theorem proof",
+              "youtubeVideoId": "vCAFlt4pQSQ",
+              "youtubeTitle": "Divergence theorem proof (part 1) | Divergence theorem | Multivariable Calculus | Khan Academy"
             }
           ]
         }
@@ -1102,15 +1536,21 @@
           "lessons": [
             {
               "id": "sp_u1_01",
-              "title": "Analyzing one categorical variable"
+              "title": "Analyzing one categorical variable",
+              "youtubeVideoId": "TXGhMDbbnzQ",
+              "youtubeTitle": "Analyzing trends in categorical data | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u1_02",
-              "title": "Two-way tables"
+              "title": "Two-way tables",
+              "youtubeVideoId": "YpnGVDAEZ9c",
+              "youtubeTitle": "Data in two way frequency tables"
             },
             {
               "id": "sp_u1_03",
-              "title": "Distributions in two-way tables"
+              "title": "Distributions in two-way tables",
+              "youtubeVideoId": "YpnGVDAEZ9c",
+              "youtubeTitle": "Data in two way frequency tables"
             }
           ]
         },
@@ -1122,15 +1562,21 @@
           "lessons": [
             {
               "id": "sp_u2_01",
-              "title": "Displaying quantitative data with graphs"
+              "title": "Displaying quantitative data with graphs",
+              "youtubeVideoId": "xTwDmnEEb9E",
+              "youtubeTitle": "Median in a histogram | Summarizing quantitative data | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u2_02",
-              "title": "Describing and comparing distributions"
+              "title": "Describing and comparing distributions",
+              "youtubeVideoId": "lT3LRjtSbJc",
+              "youtubeTitle": "Example: Comparing distributions | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u2_03",
-              "title": "More on data displays"
+              "title": "More on data displays",
+              "youtubeVideoId": "rb-T5ppxJk0",
+              "youtubeTitle": "Estimating mean and median in data displays | AP Statistics | Khan Academy"
             }
           ]
         },
@@ -1142,35 +1588,51 @@
           "lessons": [
             {
               "id": "sp_u3_01",
-              "title": "Measuring center in quantitative data"
+              "title": "Measuring center in quantitative data",
+              "youtubeVideoId": "lT3LRjtSbJc",
+              "youtubeTitle": "Example: Comparing distributions | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u3_02",
-              "title": "More on mean and median"
+              "title": "More on mean and median",
+              "youtubeVideoId": "rb-T5ppxJk0",
+              "youtubeTitle": "Estimating mean and median in data displays | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u3_03",
-              "title": "Interquartile range (IQR)"
+              "title": "Interquartile range (IQR)",
+              "youtubeVideoId": "IaUphAAcYKI",
+              "youtubeTitle": "Interquartile range (IQR) : Khan Academy"
             },
             {
               "id": "sp_u3_04",
-              "title": "Variance and standard deviation of a population"
+              "title": "Variance and standard deviation of a population",
+              "youtubeVideoId": "2egl_5c8i-g",
+              "youtubeTitle": "Variance and standard deviation of a discrete random variable | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u3_05",
-              "title": "Variance and standard deviation of a sample"
+              "title": "Variance and standard deviation of a sample",
+              "youtubeVideoId": "2egl_5c8i-g",
+              "youtubeTitle": "Variance and standard deviation of a discrete random variable | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u3_06",
-              "title": "More on standard deviation"
+              "title": "More on standard deviation",
+              "youtubeVideoId": "i0W4KcxE-mI",
+              "youtubeTitle": "Algebra II: Mean and Standard Deviation"
             },
             {
               "id": "sp_u3_07",
-              "title": "Box and whisker plots"
+              "title": "Box and whisker plots",
+              "youtubeVideoId": "-M0Fi0ijnJs",
+              "youtubeTitle": "Box-and-Whisker Plots"
             },
             {
               "id": "sp_u3_08",
-              "title": "Other measures of spread"
+              "title": "Other measures of spread",
+              "youtubeVideoId": "F6zcGSY15Vw",
+              "youtubeTitle": "Measures of Center"
             }
           ]
         },
@@ -1182,31 +1644,45 @@
           "lessons": [
             {
               "id": "sp_u4_01",
-              "title": "Percentiles"
+              "title": "Percentiles",
+              "youtubeVideoId": "S5_5KyCVjrU",
+              "youtubeTitle": "Finding z-score for a percentile | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u4_02",
-              "title": "Z-scores"
+              "title": "Z-scores",
+              "youtubeVideoId": "_rtQGAX5wsQ",
+              "youtubeTitle": "Comparing with z-scores | Modeling data distributions | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u4_03",
-              "title": "Effects of linear transformations"
+              "title": "Effects of linear transformations",
+              "youtubeVideoId": "RttvubuBhAE",
+              "youtubeTitle": "Shifting functions introduction | Transformations of functions | Algebra 2 | Khan Academy"
             },
             {
               "id": "sp_u4_04",
-              "title": "Density curves"
+              "title": "Density curves",
+              "youtubeVideoId": "wgyC7MxjnIM",
+              "youtubeTitle": "Area under density curves : Khan Academy"
             },
             {
               "id": "sp_u4_05",
-              "title": "Normal distributions and the empirical rule"
+              "title": "Normal distributions and the empirical rule",
+              "youtubeVideoId": "2fzYE-Emar0",
+              "youtubeTitle": "k12.org exercise: Standard normal distribution and the empirical | Khan Academy"
             },
             {
               "id": "sp_u4_06",
-              "title": "Normal distribution calculations"
+              "title": "Normal distribution calculations",
+              "youtubeVideoId": "OhRr26AfFBU",
+              "youtubeTitle": "ck12.org normal distribution problems: Empirical rule | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u4_07",
-              "title": "More on normal distributions"
+              "title": "More on normal distributions",
+              "youtubeVideoId": "79duxPXpyKQ",
+              "youtubeTitle": "ck12.org normal distribution problems: Qualitative sense of normal distributions | Khan Academy"
             }
           ]
         },
@@ -1218,27 +1694,39 @@
           "lessons": [
             {
               "id": "sp_u5_01",
-              "title": "Introduction to scatterplots"
+              "title": "Introduction to scatterplots",
+              "youtubeVideoId": "sHbX58y5D4U",
+              "youtubeTitle": "Constructing a scatter plot | Regression | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u5_02",
-              "title": "Correlation coefficients"
+              "title": "Correlation coefficients",
+              "youtubeVideoId": "oKjQJJaRDr8",
+              "youtubeTitle": "Correlation coefficient intuition : Khan Academy"
             },
             {
               "id": "sp_u5_03",
-              "title": "Introduction to trend lines"
+              "title": "Introduction to trend lines",
+              "youtubeVideoId": "VqD-nf1YUks",
+              "youtubeTitle": "Introduction to residuals and least-squares regression | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u5_04",
-              "title": "Least-squares regression equations"
+              "title": "Least-squares regression equations",
+              "youtubeVideoId": "VqD-nf1YUks",
+              "youtubeTitle": "Introduction to residuals and least-squares regression | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u5_05",
-              "title": "Assessing the fit in least-squares regression"
+              "title": "Assessing the fit in least-squares regression",
+              "youtubeVideoId": "yMgFHbjbAW8",
+              "youtubeTitle": "Introduction to residuals and least squares regression"
             },
             {
               "id": "sp_u5_06",
-              "title": "More on regression"
+              "title": "More on regression",
+              "youtubeVideoId": "A1H4j97paI4",
+              "youtubeTitle": "Transforming nonlinear data | More on regression | AP Statistics | Khan Academy"
             }
           ]
         },
@@ -1250,23 +1738,33 @@
           "lessons": [
             {
               "id": "sp_u6_01",
-              "title": "Statistical questions"
+              "title": "Statistical questions",
+              "youtubeVideoId": "OjzfQDFf7Uk",
+              "youtubeTitle": "Statistical questions | Data and statistics | 6th grade | Khan Academy"
             },
             {
               "id": "sp_u6_02",
-              "title": "Sampling and observational studies"
+              "title": "Sampling and observational studies",
+              "youtubeVideoId": "tHFyaoIrV14",
+              "youtubeTitle": "Worked example identifying observational study | Study design | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u6_03",
-              "title": "Sampling methods"
+              "title": "Sampling methods",
+              "youtubeVideoId": "T_IElQ2fOkY",
+              "youtubeTitle": "Sampling methods : Khan Academy"
             },
             {
               "id": "sp_u6_04",
-              "title": "Types of studies (experimental vs. observational)"
+              "title": "Types of studies (experimental vs. observational)",
+              "youtubeVideoId": "zmXBbHDUgY4",
+              "youtubeTitle": "Types of studies | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u6_05",
-              "title": "Experiments"
+              "title": "Experiments",
+              "youtubeVideoId": "N6IAzlugWw0",
+              "youtubeTitle": "The scientific method"
             }
           ]
         },
@@ -1278,39 +1776,57 @@
           "lessons": [
             {
               "id": "sp_u7_01",
-              "title": "Basic theoretical probability"
+              "title": "Basic theoretical probability",
+              "youtubeVideoId": "hA8VmhkKEJo",
+              "youtubeTitle": "Theoretical probability distribution example: tables | Probability & combinatorics"
             },
             {
               "id": "sp_u7_02",
-              "title": "Probability using sample spaces"
+              "title": "Probability using sample spaces",
+              "youtubeVideoId": "1dPMsJ7I6BY",
+              "youtubeTitle": "Probability Space"
             },
             {
               "id": "sp_u7_03",
-              "title": "Basic set operations"
+              "title": "Basic set operations",
+              "youtubeVideoId": "DPSK2tHOL5M",
+              "youtubeTitle": "Real Analysis Introduction: Sets and Set Operations"
             },
             {
               "id": "sp_u7_04",
-              "title": "Experimental probability"
+              "title": "Experimental probability",
+              "youtubeVideoId": "8i6lJiXC1ds",
+              "youtubeTitle": "Experimental probability : Khan Academy"
             },
             {
               "id": "sp_u7_05",
-              "title": "Randomness, probability, and simulation"
+              "title": "Randomness, probability, and simulation",
+              "youtubeVideoId": "3v9w79NhsfI",
+              "youtubeTitle": "Random variables | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u7_06",
-              "title": "Addition rule"
+              "title": "Addition rule",
+              "youtubeVideoId": "QE2uR6Z-NcU",
+              "youtubeTitle": "Addition rule for probability | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u7_07",
-              "title": "Multiplication rule for independent events"
+              "title": "Multiplication rule for independent events",
+              "youtubeVideoId": "OqbkCYy37hI",
+              "youtubeTitle": "General multiplication rule example: independent events | Probability & combinatorics"
             },
             {
               "id": "sp_u7_08",
-              "title": "Multiplication rule for dependent events"
+              "title": "Multiplication rule for dependent events",
+              "youtubeVideoId": "iyQNk090FGM",
+              "youtubeTitle": "General multiplication rule example: dependent events | Probability & combinatorics"
             },
             {
               "id": "sp_u7_09",
-              "title": "Conditional probability and independence"
+              "title": "Conditional probability and independence",
+              "youtubeVideoId": "pIfpHdGVwLU",
+              "youtubeTitle": "Conditional probability and independence | Probability | AP Statistics | Khan Academy"
             }
           ]
         },
@@ -1322,19 +1838,27 @@
           "lessons": [
             {
               "id": "sp_u8_01",
-              "title": "Counting principle and factorial"
+              "title": "Counting principle and factorial",
+              "youtubeVideoId": "eoxbgUIYhHo",
+              "youtubeTitle": "Factorial and counting seat arrangements | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u8_02",
-              "title": "Permutations"
+              "title": "Permutations",
+              "youtubeVideoId": "XqQTXW7XfYA",
+              "youtubeTitle": "Permutations"
             },
             {
               "id": "sp_u8_03",
-              "title": "Combinations"
+              "title": "Combinations",
+              "youtubeVideoId": "bCxMhncR7PU",
+              "youtubeTitle": "Combinations"
             },
             {
               "id": "sp_u8_04",
-              "title": "Combinatorics and probability"
+              "title": "Combinatorics and probability",
+              "youtubeVideoId": "ccrYD6iX_SY",
+              "youtubeTitle": "Example: Combinatorics and probability | Probability and combinatorics | Precalculus | Khan Academy"
             }
           ]
         },
@@ -1346,39 +1870,57 @@
           "lessons": [
             {
               "id": "sp_u9_01",
-              "title": "Discrete random variables"
+              "title": "Discrete random variables",
+              "youtubeVideoId": "IYdiKeQ9xEI",
+              "youtubeTitle": "Introduction to Random Variables"
             },
             {
               "id": "sp_u9_02",
-              "title": "Continuous random variables"
+              "title": "Continuous random variables",
+              "youtubeVideoId": "dOr0NKyD31Q",
+              "youtubeTitle": "Discrete and continuous random variables | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u9_03",
-              "title": "Transforming random variables"
+              "title": "Transforming random variables",
+              "youtubeVideoId": "dMdP07p3RwU",
+              "youtubeTitle": "Transforming random variables : Khan Academy"
             },
             {
               "id": "sp_u9_04",
-              "title": "Combining random variables"
+              "title": "Combining random variables",
+              "youtubeVideoId": "fx3TtExi9e8",
+              "youtubeTitle": "Impact of transforming (scaling and shifting) random variables | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u9_05",
-              "title": "Binomial random variables"
+              "title": "Binomial random variables",
+              "youtubeVideoId": "yUDFir8oYl8",
+              "youtubeTitle": "Binomial variables | Random variables | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u9_06",
-              "title": "Binomial mean and standard deviation formulas"
+              "title": "Binomial mean and standard deviation formulas",
+              "youtubeVideoId": "i0W4KcxE-mI",
+              "youtubeTitle": "Algebra II: Mean and Standard Deviation"
             },
             {
               "id": "sp_u9_07",
-              "title": "Geometric random variables"
+              "title": "Geometric random variables",
+              "youtubeVideoId": "IVlzp8g1McE",
+              "youtubeTitle": "Geometric random variables introduction | Random variables | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u9_08",
-              "title": "More on expected value"
+              "title": "More on expected value",
+              "youtubeVideoId": "BveA7JiRGS8",
+              "youtubeTitle": "Comparing insurance with expected value | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u9_09",
-              "title": "Poisson distribution"
+              "title": "Poisson distribution",
+              "youtubeVideoId": "r2iSbZ2KMsg",
+              "youtubeTitle": "Poisson Process 1"
             }
           ]
         },
@@ -1390,15 +1932,21 @@
           "lessons": [
             {
               "id": "sp_u10_01",
-              "title": "What is a sampling distribution?"
+              "title": "What is a sampling distribution?",
+              "youtubeVideoId": "5pU-PkFbBoU",
+              "youtubeTitle": "Introduction to sampling distributions"
             },
             {
               "id": "sp_u10_02",
-              "title": "Sampling distribution of a sample proportion"
+              "title": "Sampling distribution of a sample proportion",
+              "youtubeVideoId": "Br067hrasc8",
+              "youtubeTitle": "Sampling distribution of sample proportion part 1 | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u10_03",
-              "title": "Sampling distribution of a sample mean"
+              "title": "Sampling distribution of a sample mean",
+              "youtubeVideoId": "FXZ2O1Lv-KE",
+              "youtubeTitle": "Sampling distribution of the sample mean | Probability and Statistics | Khan Academy"
             }
           ]
         },
@@ -1410,19 +1958,27 @@
           "lessons": [
             {
               "id": "sp_u11_01",
-              "title": "Introduction to confidence intervals"
+              "title": "Introduction to confidence intervals",
+              "youtubeVideoId": "a2rd4Qy8yNI",
+              "youtubeTitle": "Introduction to t statistics | Confidence intervals | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u11_02",
-              "title": "Estimating a population proportion"
+              "title": "Estimating a population proportion",
+              "youtubeVideoId": "a1Ye5RcWOqg",
+              "youtubeTitle": "Comparing population proportions 1 | Probability and Statistics | Khan Academy"
             },
             {
               "id": "sp_u11_03",
-              "title": "Estimating a population mean"
+              "title": "Estimating a population mean",
+              "youtubeVideoId": "hsPCte_PcVA",
+              "youtubeTitle": "Statistics: Sample vs. Population Mean"
             },
             {
               "id": "sp_u11_04",
-              "title": "More confidence interval videos"
+              "title": "More confidence interval videos",
+              "youtubeVideoId": "hlM7zdf7zwU",
+              "youtubeTitle": "Confidence intervals and margin of error | AP Statistics | Khan Academy"
             }
           ]
         },
@@ -1434,23 +1990,33 @@
           "lessons": [
             {
               "id": "sp_u12_01",
-              "title": "The idea of significance tests"
+              "title": "The idea of significance tests",
+              "youtubeVideoId": "KS6KEWaoOOE",
+              "youtubeTitle": "P-values and significance tests | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u12_02",
-              "title": "Error probabilities and power"
+              "title": "Error probabilities and power",
+              "youtubeVideoId": "Hdbbx7DIweQ",
+              "youtubeTitle": "Introduction to Type I and Type II errors | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u12_03",
-              "title": "Tests about a population proportion"
+              "title": "Tests about a population proportion",
+              "youtubeVideoId": "5JlJ4Qfk8g4",
+              "youtubeTitle": "Conditions for a z test about a proportion | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u12_04",
-              "title": "Tests about a population mean"
+              "title": "Tests about a population mean",
+              "youtubeVideoId": "hsPCte_PcVA",
+              "youtubeTitle": "Statistics: Sample vs. Population Mean"
             },
             {
               "id": "sp_u12_05",
-              "title": "More significance testing videos"
+              "title": "More significance testing videos",
+              "youtubeVideoId": "KS6KEWaoOOE",
+              "youtubeTitle": "P-values and significance tests | AP Statistics | Khan Academy"
             }
           ]
         },
@@ -1462,11 +2028,15 @@
           "lessons": [
             {
               "id": "sp_u13_01",
-              "title": "Comparing two proportions"
+              "title": "Comparing two proportions",
+              "youtubeVideoId": "b-w0S0EBsfQ",
+              "youtubeTitle": "Comparing proportional relationships"
             },
             {
               "id": "sp_u13_02",
-              "title": "Comparing two means"
+              "title": "Comparing two means",
+              "youtubeVideoId": "pVPPDbZGd04",
+              "youtubeTitle": "Calculating confidence interval for difference of means | AP Statistics | Khan Academy"
             }
           ]
         },
@@ -1478,11 +2048,15 @@
           "lessons": [
             {
               "id": "sp_u14_01",
-              "title": "Chi-square goodness-of-fit tests"
+              "title": "Chi-square goodness-of-fit tests",
+              "youtubeVideoId": "VjO9hWVlOBo",
+              "youtubeTitle": "Chi-square goodness-of-fit example | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u14_02",
-              "title": "Chi-square tests for relationships"
+              "title": "Chi-square tests for relationships",
+              "youtubeVideoId": "zOvUQWOzTlc",
+              "youtubeTitle": "Chi-square test for association (independence) | AP Statistics | Khan Academy"
             }
           ]
         },
@@ -1494,11 +2068,15 @@
           "lessons": [
             {
               "id": "sp_u15_01",
-              "title": "Inference about slope"
+              "title": "Inference about slope",
+              "youtubeVideoId": "Pzglbt9_xCI",
+              "youtubeTitle": "Introduction to inference about slope in linear regression | AP Statistics | Khan Academy"
             },
             {
               "id": "sp_u15_02",
-              "title": "Nonlinear regression"
+              "title": "Nonlinear regression",
+              "youtubeVideoId": "z_hEVWSkQHo",
+              "youtubeTitle": "Quadratic Regression"
             }
           ]
         },
@@ -1510,7 +2088,9 @@
           "lessons": [
             {
               "id": "sp_u16_01",
-              "title": "Analysis of variance (ANOVA)"
+              "title": "Analysis of variance (ANOVA)",
+              "youtubeVideoId": "EFdlFoHI_0I",
+              "youtubeTitle": "ANOVA 1: Calculating SST (total sum of squares) | Probability and Statistics | Khan Academy"
             }
           ]
         }
@@ -1530,19 +2110,27 @@
           "lessons": [
             {
               "id": "p1_u1_01",
-              "title": "Scalars and vectors in 1D"
+              "title": "Scalars and vectors in 1D",
+              "youtubeVideoId": "xp6ibuI8UuQ",
+              "youtubeTitle": "Visualizing vectors in 2 dimensions | Two-dimensional motion | Physics | Khan Academy"
             },
             {
               "id": "p1_u1_02",
-              "title": "Visual models of motion"
+              "title": "Visual models of motion",
+              "youtubeVideoId": "b9tLwNa9BQ8",
+              "youtubeTitle": "Graphing motion over time | Effects | Computer animation | Khan Academy"
             },
             {
               "id": "p1_u1_03",
-              "title": "Mathematical models of motion"
+              "title": "Mathematical models of motion",
+              "youtubeVideoId": "Ugwg2dHUB90",
+              "youtubeTitle": "Example modeling asteroid velocity with differential equation"
             },
             {
               "id": "p1_u1_04",
-              "title": "Motion in 2D"
+              "title": "Motion in 2D",
+              "youtubeVideoId": "xp6ibuI8UuQ",
+              "youtubeTitle": "Visualizing vectors in 2 dimensions | Two-dimensional motion | Physics | Khan Academy"
             }
           ]
         },
@@ -1554,27 +2142,39 @@
           "lessons": [
             {
               "id": "p1_u2_01",
-              "title": "Forces and systems"
+              "title": "Forces and systems",
+              "youtubeVideoId": "QKXeZFwFPS0",
+              "youtubeTitle": "Treating systems (the hard way) | Forces and Newton's laws of motion | Physics | Khan Academy"
             },
             {
               "id": "p1_u2_02",
-              "title": "Forces and acceleration"
+              "title": "Forces and acceleration",
+              "youtubeVideoId": "JSPwCtIPfQw",
+              "youtubeTitle": "Acceleration | Physics | Khan Academy"
             },
             {
               "id": "p1_u2_03",
-              "title": "Gravitational force"
+              "title": "Gravitational force",
+              "youtubeVideoId": "R0XFqHBZfHc",
+              "youtubeTitle": "Gravitational force | Middle school physics | Khan Academy"
             },
             {
               "id": "p1_u2_04",
-              "title": "Friction force"
+              "title": "Friction force",
+              "youtubeVideoId": "iA7Thhnzc64",
+              "youtubeTitle": "Force of friction keeping velocity constant | Physics | Khan Academy"
             },
             {
               "id": "p1_u2_05",
-              "title": "Spring force"
+              "title": "Spring force",
+              "youtubeVideoId": "eVl5zs6Lqy0",
+              "youtubeTitle": "Potential energy stored in a spring | Work and energy | Physics | Khan Academy"
             },
             {
               "id": "p1_u2_06",
-              "title": "Circular motion"
+              "title": "Circular motion",
+              "youtubeVideoId": "I_pG2SH_s88",
+              "youtubeTitle": "Angular velocity and speed | Uniform circular motion and gravitation | AP Physics 1 | Khan Academy"
             }
           ]
         },
@@ -1586,19 +2186,27 @@
           "lessons": [
             {
               "id": "p1_u3_01",
-              "title": "Translational kinetic energy and work"
+              "title": "Translational kinetic energy and work",
+              "youtubeVideoId": "-7Gl-yKF6Y4",
+              "youtubeTitle": "Thermal energy, temperature, and heat | Khan Academy"
             },
             {
               "id": "p1_u3_02",
-              "title": "Potential energy"
+              "title": "Potential energy",
+              "youtubeVideoId": "aUrms3VFn0I",
+              "youtubeTitle": "Potential energy | Physics | Khan Academy"
             },
             {
               "id": "p1_u3_03",
-              "title": "Conservation of energy"
+              "title": "Conservation of energy",
+              "youtubeVideoId": "TLUZnCvuGBk",
+              "youtubeTitle": "Conservation of energy | Physics | Khan Academy"
             },
             {
               "id": "p1_u3_04",
-              "title": "Power"
+              "title": "Power",
+              "youtubeVideoId": "v2_qI9S6oIQ",
+              "youtubeTitle": "Work and power | Physics | Khan Academy"
             }
           ]
         },
@@ -1610,15 +2218,21 @@
           "lessons": [
             {
               "id": "p1_u4_01",
-              "title": "Linear momentum and impulse"
+              "title": "Linear momentum and impulse",
+              "youtubeVideoId": "qMc6KOkmjTU",
+              "youtubeTitle": "AP Physics 1 review of Momentum and Impulse | Physics | Khan Academy"
             },
             {
               "id": "p1_u4_02",
-              "title": "Conservation of linear momentum"
+              "title": "Conservation of linear momentum",
+              "youtubeVideoId": "8HXISImmGuQ",
+              "youtubeTitle": "Conservation of momentum"
             },
             {
               "id": "p1_u4_03",
-              "title": "Center of mass"
+              "title": "Center of mass",
+              "youtubeVideoId": "B0Ard8jDiHM",
+              "youtubeTitle": "Center of mass equation  | Impacts and linear momentum | Physics | Khan Academy"
             }
           ]
         },
@@ -1630,15 +2244,21 @@
           "lessons": [
             {
               "id": "p1_u5_01",
-              "title": "Rotational kinematics"
+              "title": "Rotational kinematics",
+              "youtubeVideoId": "TBlDBaUGqNc",
+              "youtubeTitle": "Rotational kinematic formulas | Moments, torque, and angular momentum | Physics | Khan Academy"
             },
             {
               "id": "p1_u5_02",
-              "title": "Torque"
+              "title": "Torque",
+              "youtubeVideoId": "TQQXpFhACSU",
+              "youtubeTitle": "Torque | Physics | Khan Academy"
             },
             {
               "id": "p1_u5_03",
-              "title": "Newton's second law in rotational form"
+              "title": "Newton's second law in rotational form",
+              "youtubeVideoId": "xusMSv2z77s",
+              "youtubeTitle": "Rotational version of Newton's second law | Physics | Khan Academy"
             }
           ]
         },
@@ -1650,15 +2270,21 @@
           "lessons": [
             {
               "id": "p1_u6_01",
-              "title": "Rotational kinetic energy"
+              "title": "Rotational kinetic energy",
+              "youtubeVideoId": "o7_zmuBweHI",
+              "youtubeTitle": "Rotational kinetic energy | Moments, torque, and angular momentum | Physics | Khan Academy"
             },
             {
               "id": "p1_u6_02",
-              "title": "Angular momentum and angular impulse"
+              "title": "Angular momentum and angular impulse",
+              "youtubeVideoId": "nFSMu3bxXVA",
+              "youtubeTitle": "Angular momentum | Moments, torque, and angular momentum | Physics | Khan Academy"
             },
             {
               "id": "p1_u6_03",
-              "title": "Conservation of angular momentum"
+              "title": "Conservation of angular momentum",
+              "youtubeVideoId": "iqnVYT1upxk",
+              "youtubeTitle": "Conservation of angular momentum (Hindi)"
             }
           ]
         },
@@ -1670,15 +2296,21 @@
           "lessons": [
             {
               "id": "p1_u7_01",
-              "title": "Simple harmonic oscillators"
+              "title": "Simple harmonic oscillators",
+              "youtubeVideoId": "kLWXLbciobw",
+              "youtubeTitle": "Equation for simple harmonic oscillators | Physics | Khan Academy"
             },
             {
               "id": "p1_u7_02",
-              "title": "Period of simple harmonic oscillators"
+              "title": "Period of simple harmonic oscillators",
+              "youtubeVideoId": "kLWXLbciobw",
+              "youtubeTitle": "Equation for simple harmonic oscillators | Physics | Khan Academy"
             },
             {
               "id": "p1_u7_03",
-              "title": "Energy of simple harmonic oscillators"
+              "title": "Energy of simple harmonic oscillators",
+              "youtubeVideoId": "kLWXLbciobw",
+              "youtubeTitle": "Equation for simple harmonic oscillators | Physics | Khan Academy"
             }
           ]
         },
@@ -1690,15 +2322,21 @@
           "lessons": [
             {
               "id": "p1_u8_01",
-              "title": "Density and pressure"
+              "title": "Density and pressure",
+              "youtubeVideoId": "AJxYCosjRH0",
+              "youtubeTitle": "Fluids and density | AP Physics | Khan Academy"
             },
             {
               "id": "p1_u8_02",
-              "title": "Buoyant force"
+              "title": "Buoyant force",
+              "youtubeVideoId": "NYWG5eXRBFQ",
+              "youtubeTitle": "Buoyant force | AP Physics | Khan Academy"
             },
             {
               "id": "p1_u8_03",
-              "title": "Fluid flow"
+              "title": "Fluid flow",
+              "youtubeVideoId": "ZBvQfi3P0l4",
+              "youtubeTitle": "Fluid flow | AP Physics | Khan Academy"
             }
           ]
         },
@@ -1710,7 +2348,9 @@
           "lessons": [
             {
               "id": "p1_u9_01",
-              "title": "AP Physics 1 concept review"
+              "title": "AP Physics 1 concept review",
+              "youtubeVideoId": "0r_JWUkXEkY",
+              "youtubeTitle": "AP Physics 1 review of Centripetal Forces | Physics | Khan Academy"
             }
           ]
         }
@@ -1730,15 +2370,21 @@
           "lessons": [
             {
               "id": "p2_u1_01",
-              "title": "Gases"
+              "title": "Gases",
+              "youtubeVideoId": "HVrlxEkUiuA",
+              "youtubeTitle": "Digging Deeper into Gases | Middle School Science | Khan Academy"
             },
             {
               "id": "p2_u1_02",
-              "title": "Thermal energy and thermal equilibrium"
+              "title": "Thermal energy and thermal equilibrium",
+              "youtubeVideoId": "n3boAYB7T3k",
+              "youtubeTitle": "Thermal energy and heat transfer | Middle school chemistry | Khan Academy"
             },
             {
               "id": "p2_u1_03",
-              "title": "Thermodynamic processes"
+              "title": "Thermodynamic processes",
+              "youtubeVideoId": "lKq-10ysDb4",
+              "youtubeTitle": "Quasistatic and reversible processes | Thermodynamics | Physics | Khan Academy"
             }
           ]
         },
@@ -1750,15 +2396,21 @@
           "lessons": [
             {
               "id": "p2_u2_01",
-              "title": "Electric charge and electric force"
+              "title": "Electric charge and electric force",
+              "youtubeVideoId": "NXMgvrS8Gr8",
+              "youtubeTitle": "Electrostatics (part 1): Introduction to Charge and Coulomb's Law"
             },
             {
               "id": "p2_u2_02",
-              "title": "Electric fields"
+              "title": "Electric fields",
+              "youtubeVideoId": "-LtvW5783zE",
+              "youtubeTitle": "Magnitude of electric field created by a charge | Physics | Khan Academy"
             },
             {
               "id": "p2_u2_03",
-              "title": "Electric potential energy, electric potential, and voltage"
+              "title": "Electric potential energy, electric potential, and voltage",
+              "youtubeVideoId": "v19QqDqmEGg",
+              "youtubeTitle": "Intro to electric potential | Electric potential and capacitance | Physics | Khan Academy"
             }
           ]
         },
@@ -1770,15 +2422,21 @@
           "lessons": [
             {
               "id": "p2_u3_01",
-              "title": "Current, resistivity, and Ohm's law"
+              "title": "Current, resistivity, and Ohm's law",
+              "youtubeVideoId": "F_vLWkkOETI",
+              "youtubeTitle": "Introduction to circuits and Ohm's law | Circuits | Physics | Khan Academy"
             },
             {
               "id": "p2_u3_02",
-              "title": "Compound circuits"
+              "title": "Compound circuits",
+              "youtubeVideoId": "7vHh1sfZ5KE",
+              "youtubeTitle": "Resistors in series | Circuits | Physics | Khan Academy"
             },
             {
               "id": "p2_u3_03",
-              "title": "Circuits with capacitors"
+              "title": "Circuits with capacitors",
+              "youtubeVideoId": "79Q_SU4BDZI",
+              "youtubeTitle": "AC voltage across a capacitor (derivation) | Alternating currents | Physics | Khan Academy"
             }
           ]
         },
@@ -1790,23 +2448,33 @@
           "lessons": [
             {
               "id": "p2_u4_01",
-              "title": "Magnetic fields"
+              "title": "Magnetic fields",
+              "youtubeVideoId": "pn4KUd-yKbw",
+              "youtubeTitle": "Intro to magnetic fields (Why fields?)"
             },
             {
               "id": "p2_u4_02",
-              "title": "Magnetism and moving charges"
+              "title": "Magnetism and moving charges",
+              "youtubeVideoId": "5r-rxd3T2L4",
+              "youtubeTitle": "Magnetic field on the axis of a circular loop | Moving charges & magnetism | Physics | Khan Academy"
             },
             {
               "id": "p2_u4_03",
-              "title": "Magnetism and current-carrying wires"
+              "title": "Magnetism and current-carrying wires",
+              "youtubeVideoId": "fav3olr-ra0",
+              "youtubeTitle": "Magnetic field due to current carrying loop"
             },
             {
               "id": "p2_u4_04",
-              "title": "Electromagnetic induction"
+              "title": "Electromagnetic induction",
+              "youtubeVideoId": "yU--8Zk57-Y",
+              "youtubeTitle": "Electromagnetic Induction | Class 12 | Electromagnetic Induction | Physics | Khan Academy"
             },
             {
               "id": "p2_u4_05",
-              "title": "Magnetic properties of materials"
+              "title": "Magnetic properties of materials",
+              "youtubeVideoId": "_9RcHLSmmjo",
+              "youtubeTitle": "Magnetic susceptibility & permeability | Magnetism & matter | Physics | Khan Academy"
             }
           ]
         },
@@ -1818,19 +2486,27 @@
           "lessons": [
             {
               "id": "p2_u5_01",
-              "title": "Reflection and mirrors"
+              "title": "Reflection and mirrors",
+              "youtubeVideoId": "435Ipnmp7bA",
+              "youtubeTitle": "Line of reflection example"
             },
             {
               "id": "p2_u5_02",
-              "title": "Mirror formula and magnification"
+              "title": "Mirror formula and magnification",
+              "youtubeVideoId": "EPlr16b4XnQ",
+              "youtubeTitle": "Mirror formula"
             },
             {
               "id": "p2_u5_03",
-              "title": "Refraction"
+              "title": "Refraction",
+              "youtubeVideoId": "LKI1UmFbfaA",
+              "youtubeTitle": "Refraction of light | Physics | Khan Academy"
             },
             {
               "id": "p2_u5_04",
-              "title": "Lenses"
+              "title": "Lenses",
+              "youtubeVideoId": "K0sjZ5nqQ7g",
+              "youtubeTitle": "Convex lenses | Geometric optics | Physics | Khan Academy"
             }
           ]
         },
@@ -1842,23 +2518,33 @@
           "lessons": [
             {
               "id": "p2_u6_01",
-              "title": "Wave properties"
+              "title": "Wave properties",
+              "youtubeVideoId": "t27NSviEsX8",
+              "youtubeTitle": "Wave properties | Middle school physics | Khan Academy"
             },
             {
               "id": "p2_u6_02",
-              "title": "Wave behaviors"
+              "title": "Wave behaviors",
+              "youtubeVideoId": "ClHuscLyuLo",
+              "youtubeTitle": "Wave properties | Wave properties | High School Physics | Khan Academy"
             },
             {
               "id": "p2_u6_03",
-              "title": "Sound"
+              "title": "Sound",
+              "youtubeVideoId": "9u1PjsBfrmg",
+              "youtubeTitle": "Sound waves | Middle school physics | Khan Academy"
             },
             {
               "id": "p2_u6_04",
-              "title": "Electromagnetic waves"
+              "title": "Electromagnetic waves",
+              "youtubeVideoId": "Je_f4RimfKI",
+              "youtubeTitle": "Electromagnetic waves | Physics | Khan Academy"
             },
             {
               "id": "p2_u6_05",
-              "title": "Diffraction and interference of light"
+              "title": "Diffraction and interference of light",
+              "youtubeVideoId": "VmN3i4HW5l0",
+              "youtubeTitle": "Diffraction and interference of light | Physics | Khan Academy"
             }
           ]
         },
@@ -1870,15 +2556,21 @@
           "lessons": [
             {
               "id": "p2_u7_01",
-              "title": "Wave-particle duality"
+              "title": "Wave-particle duality",
+              "youtubeVideoId": "iTRxuBxttj8",
+              "youtubeTitle": "De Broglie wavelength  | Physics | Khan Academy"
             },
             {
               "id": "p2_u7_02",
-              "title": "Atoms and light"
+              "title": "Atoms and light",
+              "youtubeVideoId": "JOoAELzFRT0",
+              "youtubeTitle": "Introduction to light | Electronic structure of atoms | Chemistry | Khan Academy Hebrew"
             },
             {
               "id": "p2_u7_03",
-              "title": "Nuclear physics"
+              "title": "Nuclear physics",
+              "youtubeVideoId": "b9qxAFLpz9U",
+              "youtubeTitle": "Nuclear fusion | Physics | Khan Academy"
             }
           ]
         }
