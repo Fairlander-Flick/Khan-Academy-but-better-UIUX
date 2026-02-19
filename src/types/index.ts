@@ -19,7 +19,9 @@ export interface Unit {
 export interface Lesson {
   id: string;
   title: string;
-  videoId?: string; // YouTube Video ID
+  type?: 'video' | 'article'; // Defaults to 'video' if omitted
+  videoId?: string; // YouTube Video ID (for type='video')
+  articleUrl?: string; // Khan Academy article URL (for type='article')
   duration?: string; // e.g. "14:32"
 }
 

@@ -1429,8 +1429,28 @@
               "youtubeTitle": "Introduction to the surface integral | Multivariable Calculus | Khan Academy"
             },
             {
-              "id": "mc_u4_12",
-              "title": "Surface integrals (articles)"
+              "id": "mc_u4_12a",
+              "title": "Surface area integrals",
+              "type": "article",
+              "articleUrl": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-integrals"
+            },
+            {
+              "id": "mc_u4_12b",
+              "title": "Surface area example",
+              "type": "article",
+              "articleUrl": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-example"
+            },
+            {
+              "id": "mc_u4_12c",
+              "title": "Surface integrals",
+              "type": "article",
+              "articleUrl": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-integrals"
+            },
+            {
+              "id": "mc_u4_12d",
+              "title": "Surface integral example",
+              "type": "article",
+              "articleUrl": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-integral-example"
             },
             {
               "id": "mc_u4_13",
