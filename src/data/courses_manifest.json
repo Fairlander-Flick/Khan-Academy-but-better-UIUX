@@ -1221,8 +1221,8 @@
             {
               "id": "mc_u1_06",
               "title": "Visualizing multivariable functions (articles)",
-              "youtubeVideoId": "A1H4j97paI4",
-              "youtubeTitle": "Transforming nonlinear data | More on regression | AP Statistics | Khan Academy"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-functions/visualizing-multivariable-functions/a/multivariable-functions"
             }
           ]
         },
@@ -1247,8 +1247,8 @@
             {
               "id": "mc_u2_03",
               "title": "Partial derivative and gradient (articles)",
-              "youtubeVideoId": "DG9NUPaPVbE",
-              "youtubeTitle": "The Gradient Vector Field"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives"
             },
             {
               "id": "mc_u2_04",
@@ -1277,8 +1277,8 @@
             {
               "id": "mc_u2_08",
               "title": "Differentiating vector-valued functions (articles)",
-              "youtubeVideoId": "CX89IRd6hKU",
-              "youtubeTitle": "Calculating E from V(x,y,z): E = - potential gradient | Electrostatic potential | Khan Academy"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/differentiating-vector-valued-functions-articles/a/multivariable-chain-rule-simple-version"
             },
             {
               "id": "mc_u2_09",
@@ -1295,8 +1295,8 @@
             {
               "id": "mc_u2_11",
               "title": "Divergence and curl (articles)",
-              "youtubeVideoId": "t-W6_fn_1bI",
-              "youtubeTitle": "Displacement current & Ampere Maxwell's law | Electromagnetic waves | Physics | Khan Academy"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/divergence-and-curl-articles/a/divergence"
             },
             {
               "id": "mc_u2_12",
@@ -1339,8 +1339,8 @@
             {
               "id": "mc_u3_04",
               "title": "Optimizing multivariable functions (articles)",
-              "youtubeVideoId": "A1H4j97paI4",
-              "youtubeTitle": "Transforming nonlinear data | More on regression | AP Statistics | Khan Academy"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions-articles/a/maximums-minimums-and-saddle-points"
             },
             {
               "id": "mc_u3_05",
@@ -1351,8 +1351,8 @@
             {
               "id": "mc_u3_06",
               "title": "Constrained optimization (articles)",
-              "youtubeVideoId": "vwUV2IDLP8Q",
-              "youtubeTitle": "Constrained optimization introduction"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization-articles/a/lagrange-multipliers-single-constraint"
             }
           ]
         },
@@ -1371,8 +1371,8 @@
             {
               "id": "mc_u4_02",
               "title": "Line integrals for scalar functions (articles)",
-              "youtubeVideoId": "t3cJYNdQLYg",
-              "youtubeTitle": "Line integrals and vector fields | Multivariable Calculus | Khan Academy"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/line-integrals-for-scalar-functions-articles/a/line-integrals-in-a-scalar-field"
             },
             {
               "id": "mc_u4_03",
@@ -1383,8 +1383,8 @@
             {
               "id": "mc_u4_04",
               "title": "Line integrals in vector fields (articles)",
-              "youtubeVideoId": "NzepwkVoYMY",
-              "youtubeTitle": "Line Integrals in 3D  // Formula & Three Applications"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/line-integrals-in-vector-fields-articles/a/line-integrals-in-a-vector-field"
             },
             {
               "id": "mc_u4_05",
@@ -1395,8 +1395,8 @@
             {
               "id": "mc_u4_06",
               "title": "Double integrals (articles)",
-              "youtubeVideoId": "85zGYB-34jQ",
-              "youtubeTitle": "Double integral 1 | Double and triple integrals | Multivariable Calculus | Khan Academy"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/double-integrals-articles/a/double-integrals"
             },
             {
               "id": "mc_u4_07",
@@ -1461,8 +1461,8 @@
             {
               "id": "mc_u4_14",
               "title": "Flux in 3D (articles)",
-              "youtubeVideoId": "9MN0eTC-vzQ",
-              "youtubeTitle": "Electric flux meaning (& how to calculate it)  | Electrostatics | Physics | Khan Academy"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/flux-in-3d-articles/a/flux-in-3d"
             }
           ]
         },
@@ -1487,8 +1487,8 @@
             {
               "id": "mc_u5_03",
               "title": "Green's theorem (articles)",
-              "youtubeVideoId": "8SwKD5_VL5o",
-              "youtubeTitle": "Green's Theorem, explained visually"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems/greens-theorem-articles/a/greens-theorem"
             },
             {
               "id": "mc_u5_04",
@@ -1505,8 +1505,8 @@
             {
               "id": "mc_u5_06",
               "title": "Stokes' theorem (articles)",
-              "youtubeVideoId": "8SwKD5_VL5o",
-              "youtubeTitle": "Green's Theorem, explained visually"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems/stokes-theorem-articles/a/stokes-theorem"
             },
             {
               "id": "mc_u5_07",
@@ -1517,8 +1517,8 @@
             {
               "id": "mc_u5_08",
               "title": "Divergence theorem (articles)",
-              "youtubeVideoId": "vCAFlt4pQSQ",
-              "youtubeTitle": "Divergence theorem proof (part 1) | Divergence theorem | Multivariable Calculus | Khan Academy"
+              "type": "article",
+              "articleUrl": "https://www.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems/divergence-theorem-articles/a/3d-divergence-theorem"
             },
             {
               "id": "mc_u5_09",
