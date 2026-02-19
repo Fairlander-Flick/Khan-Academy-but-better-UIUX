@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import {
     View,
     Text,
@@ -6,8 +6,10 @@ import {
     StyleSheet,
     ActivityIndicator,
     Animated,
+    useWindowDimensions,
 } from 'react-native';
 import { WebView } from 'react-native-webview';
+import YoutubePlayer from 'react-native-youtube-iframe';
 import { CourseService } from '../services/CourseService';
 import { ProgressService } from '../services/ProgressService';
 
@@ -31,6 +33,7 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
     const lesson = unit?.lessons.find(l => l.id === lessonId);
     const fadeAnim = useRef(new Animated.Value(0)).current;
     const btnScale = useRef(new Animated.Value(1)).current;
+    const { width } = useWindowDimensions();
 
     useEffect(() => {
         setIsComplete(ProgressService.isComplete(courseId, unitId, lessonId));
@@ -44,13 +47,23 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
     }, []);
 
     const handleToggleComplete = async () => {
-        // Bounce animation
         Animated.sequence([
             Animated.spring(btnScale, { toValue: 0.92, tension: 200, friction: 10, useNativeDriver: true }),
             Animated.spring(btnScale, { toValue: 1, tension: 200, friction: 10, useNativeDriver: true }),
         ]).start();
         await ProgressService.toggle(courseId, unitId, lessonId);
     };
+
+    const onVideoReady = useCallback(() => {
+        setLoading(false);
+    }, []);
+
+    const onVideoEnd = useCallback(() => {
+        // Auto-complete when video finishes
+        if (!ProgressService.isComplete(courseId, unitId, lessonId)) {
+            ProgressService.markComplete(courseId, unitId, lessonId);
+        }
+    }, [courseId, unitId, lessonId]);
 
     if (!course || !unit || !lesson) {
         return (
@@ -67,51 +80,10 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
     }
 
     const isArticle = lesson.type === 'article';
-    const hasVideo = !isArticle && (lesson as any).youtubeVideoId;
-
-    // Build the content URL
-    const getContentUrl = (): string | null => {
-        if (isArticle && lesson.articleUrl) {
-            return lesson.articleUrl;
-        }
-        if (!isArticle) {
-            const videoId = (lesson as any).youtubeVideoId;
-            if (videoId) {
-                return `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&playsinline=1&autoplay=1`;
-            }
-        }
-        return null;
-    };
-
-    const contentUrl = getContentUrl();
-
-    // Dark YouTube embed page for video lessons
-    const videoHtml = (videoId: string) => `
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-      <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { background: #0A0E21; display: flex; align-items: center; justify-content: center; height: 100vh; }
-        .video-container { position: relative; width: 100%; padding-bottom: 56.25%; }
-        .video-container iframe {
-          position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-          border: none; border-radius: 12px;
-        }
-      </style>
-    </head>
-    <body>
-      <div class="video-container">
-        <iframe
-          src="https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&playsinline=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-      </div>
-    </body>
-    </html>
-  `;
+    const videoId = !isArticle ? (lesson as any).youtubeVideoId : null;
+    const hasVideo = !!videoId;
+    const contentUrl = isArticle ? lesson.articleUrl : null;
+    const playerHeight = Math.round((width - 0) * 9 / 16); // 16:9 ratio
 
     return (
         <Animated.View style={[styles.container, { opacity: fadeAnim }]}>
@@ -149,6 +121,7 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
             {/* Content Area */}
             <View style={styles.contentArea}>
                 {isArticle ? (
+                    // Article: WebView with info banner
                     <>
                         <View style={styles.articleBanner}>
                             <Text style={styles.articleBannerIcon}>📄</Text>
@@ -178,18 +151,31 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
                         )}
                     </>
                 ) : hasVideo ? (
-                    <WebView
-                        source={{ html: videoHtml((lesson as any).youtubeVideoId) }}
-                        style={styles.webview}
-                        onLoadStart={() => setLoading(true)}
-                        onLoadEnd={() => setLoading(false)}
-                        javaScriptEnabled={true}
-                        domStorageEnabled={true}
-                        mediaPlaybackRequiresUserAction={false}
-                        allowsFullscreenVideo={true}
-                        allowsInlineMediaPlayback={true}
-                    />
+                    // Video: YouTube IFrame Player
+                    <View style={styles.videoContainer}>
+                        <YoutubePlayer
+                            height={playerHeight}
+                            videoId={videoId}
+                            play={false}
+                            onReady={onVideoReady}
+                            onChangeState={(event: string) => {
+                                if (event === 'ended') {
+                                    onVideoEnd();
+                                }
+                            }}
+                            webViewProps={{
+                                androidLayerType: 'hardware',
+                            }}
+                        />
+                        {loading && (
+                            <View style={[styles.videoLoading, { height: playerHeight }]}>
+                                <ActivityIndicator size="large" color={course.color} />
+                                <Text style={styles.loadingText}>Loading video...</Text>
+                            </View>
+                        )}
+                    </View>
                 ) : (
+                    // No video available
                     <View style={styles.noContent}>
                         <Text style={styles.noContentEmoji}>📹</Text>
                         <Text style={styles.noContentText}>Video not available yet.</Text>
@@ -199,20 +185,17 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
                     </View>
                 )}
 
-                {/* Loading overlay */}
-                {loading && contentUrl && (
+                {/* Article loading overlay */}
+                {loading && isArticle && contentUrl && (
                     <View style={styles.loadingOverlay}>
                         <ActivityIndicator size="large" color={course.color} />
-                        <Text style={styles.loadingText}>
-                            {isArticle ? 'Loading article...' : 'Loading video...'}
-                        </Text>
+                        <Text style={styles.loadingText}>Loading article...</Text>
                     </View>
                 )}
             </View>
 
             {/* Bottom bar: video info + Mark Complete */}
             <View style={styles.bottomBar}>
-                {/* Video info */}
                 {!isArticle && hasVideo && (
                     <View style={styles.videoInfo}>
                         <Text style={styles.videoInfoTitle} numberOfLines={1}>
@@ -222,20 +205,13 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
                     </View>
                 )}
 
-                {/* Mark as Complete button */}
                 <Animated.View style={{ transform: [{ scale: btnScale }], flex: isArticle || !hasVideo ? 1 : undefined }}>
                     <TouchableOpacity
-                        style={[
-                            styles.completeBtn,
-                            isComplete && styles.completeBtnDone,
-                        ]}
+                        style={[styles.completeBtn, isComplete && styles.completeBtnDone]}
                         onPress={handleToggleComplete}
                         activeOpacity={0.7}
                     >
-                        <Text style={[
-                            styles.completeBtnText,
-                            isComplete && styles.completeBtnTextDone,
-                        ]}>
+                        <Text style={[styles.completeBtnText, isComplete && styles.completeBtnTextDone]}>
                             {isComplete ? '✓ Completed' : '○ Mark as Complete'}
                         </Text>
                     </TouchableOpacity>
@@ -306,6 +282,19 @@ const styles = StyleSheet.create({
     contentArea: {
         flex: 1,
         position: 'relative',
+    },
+    videoContainer: {
+        backgroundColor: '#000',
+        position: 'relative',
+    },
+    videoLoading: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        backgroundColor: '#0A0E21',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     webview: {
         flex: 1,
