@@ -1,97 +1,95 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Khan Academy Better UI — Offline Learning App
 
-# Getting Started
+A reimagined, modern, and offline-first mobile interface for Khan Academy content, built with **React Native** (CLI).
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+> ⚠️ **Note on YouTube Downloads**:  
+> The UI currently **simulates** video downloads. Actual file downloading from YouTube is restricted by YouTube's Terms of Service (ToS). The "Download" button demonstrates the UI/UX flow and state management but does not save video files to disk.
+> 
+> However, **Article** content (HTML) and **Quiz** progress are fully functional and persist offline.
 
-## Step 1: Start Metro
+## 🚀 Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+### 📚 Course & Content
+- **Modern Tablet UI**: Grid layout optimized for tablets with staggered animations.
+- **Course Navigation**: Drill down from Course → Unit → Lesson.
+- **Rich Content Support**:
+  - **Videos**: Played via YouTube IFrame API (hardware accelerated).
+  - **Articles**: Rendered via WebView with Khan Academy branding.
+  - **Quizzes**: Interactive quizzes with **LaTeX math rendering** (KaTeX).
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### 📊 Progress Tracking (Offline Capable)
+- **Persisted Progress**: Tracks completion of every lesson and quiz.
+- **Visuals**:
+  - Progress rings on course cards.
+  - Green checkmarks (✓) for completed items.
+  - Overall progress bar on the home screen.
+- **Resume Anywhere**: Continues exactly where you left off.
 
-```sh
-# Using npm
-npm start
+### 🧠 Interactive Quizzes
+- **Infinite Practice**: Procedurally generated math questions (Derivatives, etc.).
+- **Math Rendering**: Beautiful mathematical notation using **KaTeX**.
+- **Quiz Flow**: 4 questions + 1 bonus question logic.
+- **Gamification**: Earn stars (1-3) based on performance.
 
-# OR using Yarn
-yarn start
-```
+### ⬇️ Download Manager (UI Demo)
+- **State Management**: Tracks `not_downloaded` → `downloading` → `downloaded` states.
+- **Persistence**: Remembers "downloaded" status across app restarts.
+- **Animation**: Simulated download progress ring.
 
-## Step 2: Build and run your app
+## 🛠️ Tech Stack
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+- **React Native (CLI)** — Core framework
+- **TypeScript** — Strict type safety
+- **React Native Reanimated** — Complex animations (staggered lists, press effects)
+- **AsyncStorage** — Offline persistence (progress & settings)
+- **react-native-youtube-iframe** — YouTube playback
+- **react-native-webview** — Article & Math rendering
+- **KaTeX** — Math typesetting
 
-### Android
+## 🏁 Getting Started
 
-```sh
-# Using npm
-npm run android
+### Prerequisites
+- Node.js & npm
+- Android Studio (SDK API 34+)
+- Java JDK 17
 
-# OR using Yarn
-yarn android
-```
+### Installation
 
-### iOS
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Fairlander-Flick/Khan-Academy-but-better-UIUX.git
+   cd "Khan Academy but Better UI"
+   ```
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+3. **Start Metro Bundler**
+   ```bash
+   npm start
+   ```
 
-```sh
-bundle install
-```
+4. **Run on Android Emulator/Device**
+   ```bash
+   npm run android
+   ```
 
-Then, and every time you update your native dependencies, run:
+## 📸 Screenshots
 
-```sh
-bundle exec pod install
-```
+| Home Screen | Unit Detail | Quiz |
+|-------------|-------------|------|
+| *(Course Grid)* | *(Lessons & Progress)* | *(LaTeX rendering)* |
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## 🤝 Contributing
 
-```sh
-# Using npm
-npm run ios
+This is a personal project to demonstrate UI/UX skills and offline-first architecture. Feel free to fork and improve!
 
-# OR using Yarn
-yarn ios
-```
+## 📄 License
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+MIT
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+---
 
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+*Verified working on Android Emulator (API 34 'UpsideDownCake').*
