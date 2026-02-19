@@ -1,0 +1,69 @@
+﻿Total article lessons: 17
+
+1. [mc_u1_06] Visualizing multivariable functions (articles)
+   Multivariable Calculus > Unit 1: Thinking about multivariable functions
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-functions
+
+2. [mc_u2_03] Partial derivative and gradient (articles)
+   Multivariable Calculus > Unit 2: Derivatives of multivariable functions
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/derivatives-of-multivariable-functions
+
+3. [mc_u2_08] Differentiating vector-valued functions (articles)
+   Multivariable Calculus > Unit 2: Derivatives of multivariable functions
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/derivatives-of-multivariable-functions
+
+4. [mc_u2_11] Divergence and curl (articles)
+   Multivariable Calculus > Unit 2: Derivatives of multivariable functions
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/derivatives-of-multivariable-functions
+
+5. [mc_u3_04] Optimizing multivariable functions (articles)
+   Multivariable Calculus > Unit 3: Applications of multivariable derivatives
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives
+
+6. [mc_u3_06] Constrained optimization (articles)
+   Multivariable Calculus > Unit 3: Applications of multivariable derivatives
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives
+
+7. [mc_u4_02] Line integrals for scalar functions (articles)
+   Multivariable Calculus > Unit 4: Integrating multivariable functions
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions
+
+8. [mc_u4_04] Line integrals in vector fields (articles)
+   Multivariable Calculus > Unit 4: Integrating multivariable functions
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions
+
+9. [mc_u4_06] Double integrals (articles)
+   Multivariable Calculus > Unit 4: Integrating multivariable functions
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions
+
+10. [mc_u4_12a] Surface area integrals
+   Multivariable Calculus > Unit 4: Integrating multivariable functions
+   URL: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-integrals
+
+11. [mc_u4_12b] Surface area example
+   Multivariable Calculus > Unit 4: Integrating multivariable functions
+   URL: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-example
+
+12. [mc_u4_12c] Surface integrals
+   Multivariable Calculus > Unit 4: Integrating multivariable functions
+   URL: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-integrals
+
+13. [mc_u4_12d] Surface integral example
+   Multivariable Calculus > Unit 4: Integrating multivariable functions
+   URL: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-integral-example
+
+14. [mc_u4_14] Flux in 3D (articles)
+   Multivariable Calculus > Unit 4: Integrating multivariable functions
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions
+
+15. [mc_u5_03] Green's theorem (articles)
+   Multivariable Calculus > Unit 5: Green's, Stokes', and the divergence theorems
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems
+
+16. [mc_u5_06] Stokes' theorem (articles)
+   Multivariable Calculus > Unit 5: Green's, Stokes', and the divergence theorems
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems
+
+17. [mc_u5_08] Divergence theorem (articles)
+   Multivariable Calculus > Unit 5: Green's, Stokes', and the divergence theorems
+   Guess: https://en.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems

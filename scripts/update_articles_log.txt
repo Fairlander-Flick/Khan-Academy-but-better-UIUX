@@ -1,0 +1,37 @@
+﻿  Updated: [mc_u1_06] Visualizing multivariable functions (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-functions/visualizing-multivariable-functions/a/multivariable-functions
+  Updated: [mc_u2_03] Partial derivative and gradient (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives
+  Updated: [mc_u2_08] Differentiating vector-valued functions (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/differentiating-vector-valued-functions-articles/a/multivariable-chain-rule-simple-version
+  Updated: [mc_u2_11] Divergence and curl (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/divergence-and-curl-articles/a/divergence
+  Updated: [mc_u3_04] Optimizing multivariable functions (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions-articles/a/maximums-minimums-and-saddle-points
+  Updated: [mc_u3_06] Constrained optimization (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization-articles/a/lagrange-multipliers-single-constraint
+  Updated: [mc_u4_02] Line integrals for scalar functions (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/line-integrals-for-scalar-functions-articles/a/line-integrals-in-a-scalar-field
+  Updated: [mc_u4_04] Line integrals in vector fields (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/line-integrals-in-vector-fields-articles/a/line-integrals-in-a-vector-field
+  Updated: [mc_u4_06] Double integrals (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/double-integrals-articles/a/double-integrals
+  Updated: [mc_u4_12a] Surface area integrals
+    URL: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-integrals
+  Updated: [mc_u4_12b] Surface area example
+    URL: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-example
+  Updated: [mc_u4_12c] Surface integrals
+    URL: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-integrals
+  Updated: [mc_u4_12d] Surface integral example
+    URL: https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-integral-example
+  Updated: [mc_u4_14] Flux in 3D (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/flux-in-3d-articles/a/flux-in-3d
+  Updated: [mc_u5_03] Green's theorem (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems/greens-theorem-articles/a/greens-theorem
+  Updated: [mc_u5_06] Stokes' theorem (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems/stokes-theorem-articles/a/stokes-theorem
+  Updated: [mc_u5_08] Divergence theorem (articles)
+    URL: https://www.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems/divergence-theorem-articles/a/3d-divergence-theorem
+
+Total updated: 17
+Saved to src/data/courses_manifest.json

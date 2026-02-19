@@ -12,6 +12,7 @@ import CourseDetailScreen from './src/screens/CourseDetailScreen';
 import UnitDetailScreen from './src/screens/UnitDetailScreen';
 import QuizScreen from './src/screens/QuizScreen';
 import QuizResultScreen from './src/screens/QuizResultScreen';
+import LessonDetailScreen from './src/screens/LessonDetailScreen';
 import { QuizResult } from './src/types';
 
 type Screen =
@@ -19,7 +20,8 @@ type Screen =
   | { name: 'CourseDetail'; courseId: string }
   | { name: 'UnitDetail'; courseId: string; unitId: string }
   | { name: 'Quiz'; courseId: string; unitId: string; isGrandQuiz?: boolean }
-  | { name: 'QuizResult'; courseId: string; unitId: string; result: QuizResult };
+  | { name: 'QuizResult'; courseId: string; unitId: string; result: QuizResult }
+  | { name: 'LessonDetail'; courseId: string; unitId: string; lessonId: string };
 
 function App() {
   const [screen, setScreen] = useState<Screen>({ name: 'Home' });
@@ -35,6 +37,10 @@ function App() {
 
   const navigateToQuiz = useCallback((courseId: string, unitId: string) => {
     setScreen({ name: 'Quiz', courseId, unitId });
+  }, []);
+
+  const navigateToLesson = useCallback((courseId: string, unitId: string, lessonId: string) => {
+    setScreen({ name: 'LessonDetail', courseId, unitId, lessonId });
   }, []);
 
   const navigateToQuizResult = useCallback(
@@ -56,6 +62,9 @@ function App() {
         setScreen({ name: 'UnitDetail', courseId: screen.courseId, unitId: screen.unitId });
         break;
       case 'QuizResult':
+        setScreen({ name: 'UnitDetail', courseId: screen.courseId, unitId: screen.unitId });
+        break;
+      case 'LessonDetail':
         setScreen({ name: 'UnitDetail', courseId: screen.courseId, unitId: screen.unitId });
         break;
       default:
@@ -82,7 +91,7 @@ function App() {
           <UnitDetailScreen
             courseId={screen.courseId}
             unitId={screen.unitId}
-            onLessonPress={() => { }} // TODO: Video player
+            onLessonPress={navigateToLesson}
             onQuizPress={navigateToQuiz}
             onBack={goBack}
           />
@@ -114,6 +123,16 @@ function App() {
                 unitId: screen.unitId,
               })
             }
+            onBack={goBack}
+          />
+        );
+
+      case 'LessonDetail':
+        return (
+          <LessonDetailScreen
+            courseId={screen.courseId}
+            unitId={screen.unitId}
+            lessonId={screen.lessonId}
             onBack={goBack}
           />
         );

@@ -1,0 +1,24 @@
+﻿Testing approaches to get KA article content...
+
+GraphQL articleRenderer: 403
+Response (first 500): Operation not found in safelist
+
+Content API: 400
+Response (first 500): webpage handler can't process the URL
+
+Wayback API: 200
+Response: {
+  "url": "https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-integrals",
+  "archived_snapshots": {
+    "closest": {
+      "status": "200",
+      "available": true,
+      "url": "http://web.archive.org/web/20260108014538/https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-integrals",
+      "timestamp": "20260108014538"
+    }
+  }
+}
+Snapshot URL: http://web.archive.org/web/20260108014538/https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-integrals
+Snapshot status: 200
+
+Done!

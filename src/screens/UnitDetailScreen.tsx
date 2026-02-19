@@ -35,30 +35,36 @@ const UnitDetailScreen: React.FC<UnitDetailScreenProps> = ({
         );
     }
 
-    const renderLesson = ({ item, index }: { item: Lesson; index: number }) => (
-        <TouchableOpacity
-            style={styles.lessonCard}
-            onPress={() => onLessonPress(courseId, unitId, item.id)}
-            activeOpacity={0.7}
-        >
-            <View style={styles.lessonLeft}>
-                <View style={styles.playIcon}>
-                    <Text style={styles.playIconText}>▶</Text>
+    const renderLesson = ({ item, index }: { item: Lesson; index: number }) => {
+        const isArticle = item.type === 'article';
+        return (
+            <TouchableOpacity
+                style={styles.lessonCard}
+                onPress={() => onLessonPress(courseId, unitId, item.id)}
+                activeOpacity={0.7}
+            >
+                <View style={styles.lessonLeft}>
+                    <View style={[styles.playIcon, isArticle && styles.articleIcon]}>
+                        <Text style={[styles.playIconText, isArticle && styles.articleIconText]}>
+                            {isArticle ? '📄' : '▶'}
+                        </Text>
+                    </View>
+                    <View style={styles.lessonInfo}>
+                        <Text style={styles.lessonTitle}>{item.title}</Text>
+                        <Text style={styles.lessonType}>
+                            {isArticle ? 'Article · Khan Academy' : item.duration || 'Video'}
+                        </Text>
+                    </View>
                 </View>
-                <View style={styles.lessonInfo}>
-                    <Text style={styles.lessonTitle}>{item.title}</Text>
-                    {item.duration && (
-                        <Text style={styles.lessonDuration}>{item.duration}</Text>
-                    )}
-                </View>
-            </View>
 
-            {/* Download status indicator placeholder */}
-            <View style={styles.downloadIcon}>
-                <Text style={styles.downloadIconText}>⬇</Text>
-            </View>
-        </TouchableOpacity>
-    );
+                {!isArticle && (
+                    <View style={styles.downloadIcon}>
+                        <Text style={styles.downloadIconText}>⬇</Text>
+                    </View>
+                )}
+            </TouchableOpacity>
+        );
+    };
 
     return (
         <View style={styles.container}>
@@ -187,6 +193,17 @@ const styles = StyleSheet.create({
         fontSize: 15,
         fontWeight: '600',
         color: '#FFFFFF',
+    },
+    articleIcon: {
+        backgroundColor: '#E67E2220',
+    },
+    articleIconText: {
+        color: '#E67E22',
+    },
+    lessonType: {
+        fontSize: 12,
+        color: '#6C7293',
+        marginTop: 2,
     },
     lessonDuration: {
         fontSize: 12,

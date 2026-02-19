@@ -1,0 +1,172 @@
+[
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 1: Thinking about multivariable functions",
+    "id": "mc_u1_06",
+    "title": "Visualizing multivariable functions (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 2: Derivatives of multivariable functions",
+    "id": "mc_u2_03",
+    "title": "Partial derivative and gradient (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/derivatives-of-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 2: Derivatives of multivariable functions",
+    "id": "mc_u2_08",
+    "title": "Differentiating vector-valued functions (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/derivatives-of-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 2: Derivatives of multivariable functions",
+    "id": "mc_u2_11",
+    "title": "Divergence and curl (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/derivatives-of-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 3: Applications of multivariable derivatives",
+    "id": "mc_u3_04",
+    "title": "Optimizing multivariable functions (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 3: Applications of multivariable derivatives",
+    "id": "mc_u3_06",
+    "title": "Constrained optimization (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 4: Integrating multivariable functions",
+    "id": "mc_u4_02",
+    "title": "Line integrals for scalar functions (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 4: Integrating multivariable functions",
+    "id": "mc_u4_04",
+    "title": "Line integrals in vector fields (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 4: Integrating multivariable functions",
+    "id": "mc_u4_06",
+    "title": "Double integrals (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 4: Integrating multivariable functions",
+    "id": "mc_u4_12a",
+    "title": "Surface area integrals",
+    "type": "article",
+    "articleUrl": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-integrals",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 4: Integrating multivariable functions",
+    "id": "mc_u4_12b",
+    "title": "Surface area example",
+    "type": "article",
+    "articleUrl": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-area-example",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 4: Integrating multivariable functions",
+    "id": "mc_u4_12c",
+    "title": "Surface integrals",
+    "type": "article",
+    "articleUrl": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-integrals",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 4: Integrating multivariable functions",
+    "id": "mc_u4_12d",
+    "title": "Surface integral example",
+    "type": "article",
+    "articleUrl": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/surface-integrals-articles/a/surface-integral-example",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 4: Integrating multivariable functions",
+    "id": "mc_u4_14",
+    "title": "Flux in 3D (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 5: Green's, Stokes', and the divergence theorems",
+    "id": "mc_u5_03",
+    "title": "Green's theorem (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 5: Green's, Stokes', and the divergence theorems",
+    "id": "mc_u5_06",
+    "title": "Stokes' theorem (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems"
+  },
+  {
+    "course": "Multivariable Calculus",
+    "course_id": "multivariable_calculus",
+    "unit": "Unit 5: Green's, Stokes', and the divergence theorems",
+    "id": "mc_u5_08",
+    "title": "Divergence theorem (articles)",
+    "type": "video",
+    "articleUrl": "",
+    "constructed_url": "https://en.khanacademy.org/math/multivariable-calculus/greens-stokes-and-the-divergence-theorems"
+  }
+]
