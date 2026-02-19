@@ -3,6 +3,9 @@ import { QuizGeneratorRegistry, DifficultyDistribution } from '../generators/Qui
 
 // Auto-register generators by importing them
 import '../generators/math/DerivativesGenerator';
+import '../generators/math/LimitsGenerator';
+import '../generators/math/IntegralsGenerator';
+import '../generators/math/GenericMathGenerator';
 
 const REGULAR_QUESTION_COUNT = 4;
 const GRAND_QUIZ_QUESTION_COUNT = 20;
