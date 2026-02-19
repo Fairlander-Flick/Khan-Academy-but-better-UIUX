@@ -7,8 +7,8 @@ import {
 
 /**
  * Generic generator that can register for multiple IDs.
- * Provides basic arithmetic/algebra questions as a fallback for 
- * unimplemented topics, preventing "No generator found" errors.
+ * Provides topic-specific questions for broad categories (Stats, Physics, Calc)
+ * preventing "No generator found" errors while keeping content relevant.
  */
 class GenericMathGenerator implements QuizGenerator {
     id: string;
@@ -28,6 +28,110 @@ class GenericMathGenerator implements QuizGenerator {
     }
 
     private generateOne(index: number): QuizQuestion {
+        if (this.isStatistics()) {
+            return this.generateStatsQuestion(index);
+        } else if (this.isPhysics()) {
+            return this.generatePhysicsQuestion(index);
+        } else if (this.isCalculus()) {
+            return this.generateCalculusQuestion(index);
+        }
+        return this.generateAlgebraQuestion(index);
+    }
+
+    // --- Domain Checks ---
+
+    private isStatistics(): boolean {
+        const keywords = ['stats', 'probability', 'regression', 'anova', 'data', 'distribution', 'inference', 'hypothesis', 'variable', 'sample'];
+        return keywords.some(k => this.id.includes(k));
+    }
+
+    private isPhysics(): boolean {
+        const keywords = ['physics', 'mechanics', 'kinematics', 'dynamics', 'energy', 'forces', 'circuits', 'magnetism', 'fluids', 'optics', 'waves', 'thermo', 'torque', 'momentum', 'oscillations'];
+        return keywords.some(k => this.id.includes(k));
+    }
+
+    private isCalculus(): boolean {
+        const keywords = ['derivative', 'integral', 'diff_eq', 'calculus', 'series', 'vector', 'parametric', 'polar', 'multivariable', 'laplace', 'matrix', 'eigen'];
+        return keywords.some(k => this.id.includes(k));
+    }
+
+    // --- Generators ---
+
+    private generateStatsQuestion(index: number): QuizQuestion {
+        // Mean / Median / Mode
+        const nums = Array.from({ length: 5 }, () => this.randInt(1, 10)).sort((a, b) => a - b);
+        const sum = nums.reduce((a, b) => a + b, 0);
+        const mean = sum / 5;
+
+        // Ensure integer mean for simplicity
+        if (!Number.isInteger(mean)) return this.generateStatsQuestion(index);
+
+        const dataset = nums.join(', ');
+        const questionText = `Find the **mean** of the dataset: $\\{${dataset}\\}$`;
+        const correctAnswer = `$${mean}$`;
+
+        const distractors = [
+            `$${mean + 1}$`,
+            `$${mean - 1}$`,
+            `$${nums[2]}$`, // Median
+        ];
+
+        return this.buildQuestion(
+            `${this.id}_stats_${index}_${Date.now()}`,
+            questionText,
+            correctAnswer,
+            distractors,
+            'easy',
+            `The mean is the sum divided by the count: $\\frac{${nums.join('+')}}{5} = \\frac{${sum}}{5} = ${mean}$.`
+        );
+    }
+
+    private generatePhysicsQuestion(index: number): QuizQuestion {
+        // F = ma
+        const m = this.randInt(2, 10);
+        const a = this.randInt(2, 10);
+        const f = m * a;
+
+        const questionText = `A mass of $${m}\\text{ kg}$ is accelerated at $${a}\\text{ m/s}^2$. What is the net force?`;
+        const correctAnswer = `$${f}\\text{ N}$`;
+
+        const distractors = [
+            `$${f + m}\\text{ N}$`,
+            `$${m}\\text{ N}$`,
+            `$${a}\\text{ N}$`,
+        ];
+
+        return this.buildQuestion(
+            `${this.id}_phys_${index}_${Date.now()}`,
+            questionText,
+            correctAnswer,
+            distractors,
+            'easy',
+            `Newton's Second Law: $F = ma = ${m} \\cdot ${a} = ${f}\\text{ N}$.`
+        );
+    }
+
+    private generateCalculusQuestion(index: number): QuizQuestion {
+        // Conceptual rate of change
+        const questionText = `If $f'(x) > 0$ for all $x$, then $f(x)$ is:`;
+        const correctAnswer = `Increasing`;
+        const distractors = [
+            `Decreasing`,
+            `Constant`,
+            `Zero`,
+        ];
+
+        return this.buildQuestion(
+            `${this.id}_calc_${index}_${Date.now()}`,
+            questionText,
+            correctAnswer,
+            distractors,
+            'easy',
+            `A positive derivative $f'(x) > 0$ implies the function is increasing.`
+        );
+    }
+
+    private generateAlgebraQuestion(index: number): QuizQuestion {
         // Simple algebra fallback: solve for x: ax + b = c
         const x = this.randInt(-10, 10);
         const a = this.randInt(2, 9);
@@ -44,7 +148,7 @@ class GenericMathGenerator implements QuizGenerator {
         ];
 
         return this.buildQuestion(
-            `${this.id}_${index}_${Date.now()}`,
+            `${this.id}_alg_${index}_${Date.now()}`,
             questionText,
             correctAnswer,
             distractors,
@@ -52,6 +156,8 @@ class GenericMathGenerator implements QuizGenerator {
             `Subtract ${b} from both sides: $${a}x = ${c - b}$. Then divide by ${a}: $x = ${x}$.`
         );
     }
+
+    // --- Helpers ---
 
     private randInt(min: number, max: number): number {
         return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -87,7 +193,6 @@ class GenericMathGenerator implements QuizGenerator {
 }
 
 // Register for all missing topics from the manifest
-// This ensures every unit has *some* working quiz
 const missingTopics = [
     'advanced_regression',
     'analyzing_functions',
