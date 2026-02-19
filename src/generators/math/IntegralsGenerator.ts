@@ -9,7 +9,7 @@ import {
  * Procedural generator for Integrals questions.
  */
 class IntegralsGenerator implements QuizGenerator {
-    id = 'integrals';
+    id = 'integrals_basic';
 
     generate(count: number, dist?: DifficultyDistribution): QuizQuestion[] {
         const questions: QuizQuestion[] = [];
