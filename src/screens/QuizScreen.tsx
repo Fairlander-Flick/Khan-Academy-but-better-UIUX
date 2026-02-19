@@ -9,6 +9,7 @@ import {
 import QuizEngine from '../services/QuizEngine';
 import { CourseService } from '../services/CourseService';
 import { QuizSession, QuizResult } from '../types';
+import MathText, { containsLatex } from '../components/MathText';
 
 interface QuizScreenProps {
     courseId: string;
@@ -153,7 +154,11 @@ const QuizScreen: React.FC<QuizScreenProps> = ({
                     {currentQ.difficulty === 'easy' ? '🟢 Easy' :
                         currentQ.difficulty === 'medium' ? '🟡 Medium' : '🔴 Hard'}
                 </Text>
-                <Text style={styles.questionText}>{currentQ.text}</Text>
+                {containsLatex(currentQ.text) ? (
+                    <MathText text={currentQ.text} color="#FFFFFF" fontSize={20} />
+                ) : (
+                    <Text style={styles.questionText}>{currentQ.text}</Text>
+                )}
             </Animated.View>
 
             {/* Options */}
@@ -191,9 +196,15 @@ const QuizScreen: React.FC<QuizScreenProps> = ({
                                     {option.id}
                                 </Text>
                             </View>
-                            <Text style={[styles.optionText, { color: textColor }]}>
-                                {option.text}
-                            </Text>
+                            {containsLatex(option.text) ? (
+                                <View style={{ flex: 1 }}>
+                                    <MathText text={option.text} color={textColor} fontSize={16} />
+                                </View>
+                            ) : (
+                                <Text style={[styles.optionText, { color: textColor }]}>
+                                    {option.text}
+                                </Text>
+                            )}
                         </TouchableOpacity>
                     );
                 })}
@@ -206,7 +217,11 @@ const QuizScreen: React.FC<QuizScreenProps> = ({
                         {isCorrect ? '✅ Correct!' : '❌ Incorrect'}
                     </Text>
                     {!isCorrect && currentQ.explanation && (
-                        <Text style={styles.feedbackExplanation}>{currentQ.explanation}</Text>
+                        containsLatex(currentQ.explanation || '') ? (
+                            <MathText text={currentQ.explanation!} color="#AEB6BF" fontSize={13} />
+                        ) : (
+                            <Text style={styles.feedbackExplanation}>{currentQ.explanation}</Text>
+                        )
                     )}
                 </View>
             )}
