@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import {
     View,
     Text,
@@ -7,58 +7,113 @@ import {
     StyleSheet,
     StatusBar,
     useWindowDimensions,
+    Animated,
 } from 'react-native';
 import { CourseService } from '../services/CourseService';
+import { ProgressService, ProgressStats } from '../services/ProgressService';
 import { Course } from '../types';
 
 interface HomeScreenProps {
     onCoursePress: (courseId: string) => void;
 }
 
+/** Animated circular progress ring */
+const ProgressRing = ({ percent, color, size = 44 }: { percent: number; color: string; size?: number }) => {
+    const animatedValue = useRef(new Animated.Value(0)).current;
+
+    useEffect(() => {
+        Animated.spring(animatedValue, {
+            toValue: percent,
+            tension: 40,
+            friction: 8,
+            useNativeDriver: false,
+        }).start();
+    }, [percent]);
+
+    const strokeWidth = 3;
+    const radius = (size - strokeWidth) / 2;
+    const circumference = 2 * Math.PI * radius;
+
+    return (
+        <View style={{ width: size, height: size, alignItems: 'center', justifyContent: 'center' }}>
+            {/* Background ring */}
+            <View style={{
+                position: 'absolute',
+                width: size,
+                height: size,
+                borderRadius: size / 2,
+                borderWidth: strokeWidth,
+                borderColor: color + '15',
+            }} />
+            {/* Progress fill (simplified arc using border) */}
+            <View style={{
+                position: 'absolute',
+                width: size,
+                height: size,
+                borderRadius: size / 2,
+                borderWidth: strokeWidth,
+                borderColor: color,
+                borderRightColor: 'transparent',
+                borderBottomColor: percent > 50 ? color : 'transparent',
+                borderLeftColor: percent > 75 ? color : 'transparent',
+                transform: [{ rotate: '-45deg' }],
+                opacity: percent > 0 ? 1 : 0,
+            }} />
+            {/* Center text */}
+            <Text style={{ fontSize: 11, fontWeight: '800', color: color }}>
+                {percent}%
+            </Text>
+        </View>
+    );
+};
+
 const HomeScreen: React.FC<HomeScreenProps> = ({ onCoursePress }) => {
     const courses = CourseService.getAllCourses();
     const { width } = useWindowDimensions();
+    const [, setTick] = useState(0); // Force re-render on progress change
+    const fadeAnim = useRef(new Animated.Value(0)).current;
+
+    // Subscribe to progress changes
+    useEffect(() => {
+        const unsub = ProgressService.subscribe(() => setTick(t => t + 1));
+        return unsub;
+    }, []);
+
+    // Fade-in animation on mount
+    useEffect(() => {
+        Animated.timing(fadeAnim, {
+            toValue: 1,
+            duration: 500,
+            useNativeDriver: true,
+        }).start();
+    }, []);
 
     // Tablet: 2-3 columns based on screen width
     const numColumns = width > 900 ? 3 : width > 600 ? 2 : 1;
     const cardWidth = (width - 48 - (numColumns - 1) * 16) / numColumns;
 
-    const renderCourseCard = ({ item }: { item: Course }) => {
+    const totalProgress = ProgressService.getTotalProgress();
+
+    const renderCourseCard = ({ item, index }: { item: Course; index: number }) => {
         const unitCount = CourseService.getUnitCount(item.id);
         const videoCount = CourseService.getVideoCount(item.id);
+        const progress = ProgressService.getCourseProgress(item.id);
 
         return (
-            <TouchableOpacity
-                style={[
-                    styles.card,
-                    { width: cardWidth, borderLeftColor: item.color },
-                ]}
+            <AnimatedCourseCard
+                item={item}
+                index={index}
+                cardWidth={cardWidth}
+                unitCount={unitCount}
+                videoCount={videoCount}
+                progress={progress}
                 onPress={() => onCoursePress(item.id)}
-                activeOpacity={0.7}
-            >
-                <View style={[styles.cardIconContainer, { backgroundColor: item.color + '15' }]}>
-                    <Text style={[styles.cardIcon, { color: item.color }]}>
-                        {getEmojiForCourse(item.id)}
-                    </Text>
-                </View>
-
-                <Text style={styles.cardTitle} numberOfLines={2}>
-                    {item.title}
-                </Text>
-
-                <View style={styles.cardMeta}>
-                    <Text style={styles.cardMetaText}>
-                        {unitCount} units • {videoCount} videos
-                    </Text>
-                </View>
-
-                <View style={[styles.cardAccent, { backgroundColor: item.color }]} />
-            </TouchableOpacity>
+            />
         );
     };
 
     return (
-        <View style={styles.container}>
+        <Animated.View style={[styles.container, { opacity: fadeAnim }]}>
             <StatusBar barStyle="light-content" backgroundColor="#0A0E21" />
 
             {/* Header */}
@@ -67,14 +122,35 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onCoursePress }) => {
                 <Text style={styles.headerSubtitle}>Better UI • Offline</Text>
             </View>
 
-            {/* Greeting */}
+            {/* Greeting + Overall Progress */}
             <View style={styles.greetingContainer}>
-                <Text style={styles.greeting}>
-                    {getGreeting()}
-                </Text>
-                <Text style={styles.greetingSubtext}>
-                    Ready to learn? Pick a course below.
-                </Text>
+                <View style={styles.greetingRow}>
+                    <View style={styles.greetingTextContainer}>
+                        <Text style={styles.greeting}>
+                            {getGreeting()}
+                        </Text>
+                        <Text style={styles.greetingSubtext}>
+                            {totalProgress.completed > 0
+                                ? `${totalProgress.completed}/${totalProgress.total} lessons completed`
+                                : 'Ready to learn? Pick a course below.'}
+                        </Text>
+                    </View>
+                    {totalProgress.completed > 0 && (
+                        <View style={styles.totalProgressContainer}>
+                            <ProgressRing percent={totalProgress.percent} color="#4CD964" size={52} />
+                        </View>
+                    )}
+                </View>
+
+                {/* Overall progress bar */}
+                {totalProgress.completed > 0 && (
+                    <View style={styles.overallProgressBar}>
+                        <View style={[styles.overallProgressFill, {
+                            width: `${totalProgress.percent}%`,
+                            backgroundColor: '#4CD964',
+                        }]} />
+                    </View>
+                )}
             </View>
 
             {/* Course Grid */}
@@ -83,12 +159,111 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onCoursePress }) => {
                 renderItem={renderCourseCard}
                 keyExtractor={item => item.id}
                 numColumns={numColumns}
-                key={numColumns} // Re-render on column change
+                key={numColumns}
                 contentContainerStyle={styles.grid}
                 columnWrapperStyle={numColumns > 1 ? styles.row : undefined}
                 showsVerticalScrollIndicator={false}
             />
-        </View>
+        </Animated.View>
+    );
+};
+
+/** Individual animated course card */
+const AnimatedCourseCard = ({
+    item, index, cardWidth, unitCount, videoCount, progress, onPress,
+}: {
+    item: Course; index: number; cardWidth: number;
+    unitCount: number; videoCount: number; progress: ProgressStats;
+    onPress: () => void;
+}) => {
+    const scaleAnim = useRef(new Animated.Value(1)).current;
+    const slideAnim = useRef(new Animated.Value(30)).current;
+    const opacityAnim = useRef(new Animated.Value(0)).current;
+
+    useEffect(() => {
+        Animated.parallel([
+            Animated.timing(slideAnim, {
+                toValue: 0,
+                duration: 400,
+                delay: index * 80,
+                useNativeDriver: true,
+            }),
+            Animated.timing(opacityAnim, {
+                toValue: 1,
+                duration: 400,
+                delay: index * 80,
+                useNativeDriver: true,
+            }),
+        ]).start();
+    }, []);
+
+    const onPressIn = () => {
+        Animated.spring(scaleAnim, {
+            toValue: 0.96,
+            tension: 100,
+            friction: 10,
+            useNativeDriver: true,
+        }).start();
+    };
+
+    const onPressOut = () => {
+        Animated.spring(scaleAnim, {
+            toValue: 1,
+            tension: 100,
+            friction: 10,
+            useNativeDriver: true,
+        }).start();
+    };
+
+    return (
+        <Animated.View style={{
+            transform: [
+                { scale: scaleAnim },
+                { translateY: slideAnim },
+            ],
+            opacity: opacityAnim,
+        }}>
+            <TouchableOpacity
+                style={[styles.card, { width: cardWidth, borderLeftColor: item.color }]}
+                onPress={onPress}
+                onPressIn={onPressIn}
+                onPressOut={onPressOut}
+                activeOpacity={1}
+            >
+                <View style={styles.cardTopRow}>
+                    <View style={[styles.cardIconContainer, { backgroundColor: item.color + '15' }]}>
+                        <Text style={[styles.cardIcon, { color: item.color }]}>
+                            {getEmojiForCourse(item.id)}
+                        </Text>
+                    </View>
+                    {progress.percent > 0 && (
+                        <ProgressRing percent={progress.percent} color={item.color} size={38} />
+                    )}
+                </View>
+
+                <Text style={styles.cardTitle} numberOfLines={2}>
+                    {item.title}
+                </Text>
+
+                <View style={styles.cardMeta}>
+                    <Text style={styles.cardMetaText}>
+                        {unitCount} units • {videoCount} lessons
+                    </Text>
+                </View>
+
+                {/* Progress bar */}
+                {progress.percent > 0 && (
+                    <View style={styles.cardProgressBar}>
+                        <View style={[styles.cardProgressFill, {
+                            width: `${progress.percent}%`,
+                            backgroundColor: item.color,
+                        }]} />
+                    </View>
+                )}
+
+                <View style={[styles.cardAccent, { backgroundColor: item.color }]} />
+            </TouchableOpacity>
+        </Animated.View>
     );
 };
 
@@ -139,6 +314,14 @@ const styles = StyleSheet.create({
         paddingHorizontal: 24,
         paddingVertical: 16,
     },
+    greetingRow: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+    },
+    greetingTextContainer: {
+        flex: 1,
+    },
     greeting: {
         fontSize: 22,
         fontWeight: '700',
@@ -148,6 +331,20 @@ const styles = StyleSheet.create({
         fontSize: 14,
         color: '#6C7293',
         marginTop: 4,
+    },
+    totalProgressContainer: {
+        marginLeft: 16,
+    },
+    overallProgressBar: {
+        height: 4,
+        backgroundColor: '#1D1F33',
+        borderRadius: 2,
+        marginTop: 14,
+        overflow: 'hidden',
+    },
+    overallProgressFill: {
+        height: '100%',
+        borderRadius: 2,
     },
     grid: {
         paddingHorizontal: 16,
@@ -164,12 +361,17 @@ const styles = StyleSheet.create({
         marginBottom: 16,
         borderLeftWidth: 4,
         overflow: 'hidden',
-        // Shadow
         elevation: 8,
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 4 },
         shadowOpacity: 0.3,
         shadowRadius: 8,
+    },
+    cardTopRow: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'flex-start',
+        marginBottom: 12,
     },
     cardIconContainer: {
         width: 48,
@@ -177,7 +379,6 @@ const styles = StyleSheet.create({
         borderRadius: 12,
         alignItems: 'center',
         justifyContent: 'center',
-        marginBottom: 12,
     },
     cardIcon: {
         fontSize: 24,
@@ -197,6 +398,17 @@ const styles = StyleSheet.create({
         fontSize: 13,
         color: '#6C7293',
         fontWeight: '500',
+    },
+    cardProgressBar: {
+        height: 3,
+        backgroundColor: '#2D2F45',
+        borderRadius: 2,
+        marginTop: 12,
+        overflow: 'hidden',
+    },
+    cardProgressFill: {
+        height: '100%',
+        borderRadius: 2,
     },
     cardAccent: {
         position: 'absolute',

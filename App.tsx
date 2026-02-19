@@ -3,7 +3,7 @@
  * Data-driven, extendable education app for Android tablets.
  */
 
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
@@ -14,6 +14,8 @@ import QuizScreen from './src/screens/QuizScreen';
 import QuizResultScreen from './src/screens/QuizResultScreen';
 import LessonDetailScreen from './src/screens/LessonDetailScreen';
 import { QuizResult } from './src/types';
+import { ProgressService } from './src/services/ProgressService';
+import { DownloadService } from './src/services/DownloadService';
 
 type Screen =
   | { name: 'Home' }
@@ -25,6 +27,15 @@ type Screen =
 
 function App() {
   const [screen, setScreen] = useState<Screen>({ name: 'Home' });
+  const [servicesReady, setServicesReady] = useState(false);
+
+  // Initialize persistence services
+  useEffect(() => {
+    Promise.all([
+      ProgressService.init(),
+      DownloadService.init(),
+    ]).then(() => setServicesReady(true));
+  }, []);
 
   // Navigation callbacks
   const navigateToCourse = useCallback((courseId: string) => {

@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
     View,
     Text,
     TouchableOpacity,
     StyleSheet,
     ActivityIndicator,
+    Animated,
 } from 'react-native';
 import { WebView } from 'react-native-webview';
 import { CourseService } from '../services/CourseService';
+import { ProgressService } from '../services/ProgressService';
 
 interface LessonDetailScreenProps {
     courseId: string;
@@ -23,9 +25,32 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
     onBack,
 }) => {
     const [loading, setLoading] = useState(true);
+    const [isComplete, setIsComplete] = useState(false);
     const course = CourseService.getCourse(courseId);
     const unit = CourseService.getUnit(courseId, unitId);
     const lesson = unit?.lessons.find(l => l.id === lessonId);
+    const fadeAnim = useRef(new Animated.Value(0)).current;
+    const btnScale = useRef(new Animated.Value(1)).current;
+
+    useEffect(() => {
+        setIsComplete(ProgressService.isComplete(courseId, unitId, lessonId));
+        const unsub = ProgressService.subscribe(() => {
+            setIsComplete(ProgressService.isComplete(courseId, unitId, lessonId));
+        });
+        Animated.timing(fadeAnim, {
+            toValue: 1, duration: 300, useNativeDriver: true,
+        }).start();
+        return unsub;
+    }, []);
+
+    const handleToggleComplete = async () => {
+        // Bounce animation
+        Animated.sequence([
+            Animated.spring(btnScale, { toValue: 0.92, tension: 200, friction: 10, useNativeDriver: true }),
+            Animated.spring(btnScale, { toValue: 1, tension: 200, friction: 10, useNativeDriver: true }),
+        ]).start();
+        await ProgressService.toggle(courseId, unitId, lessonId);
+    };
 
     if (!course || !unit || !lesson) {
         return (
@@ -89,7 +114,7 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
   `;
 
     return (
-        <View style={styles.container}>
+        <Animated.View style={[styles.container, { opacity: fadeAnim }]}>
             {/* Header */}
             <View style={[styles.header, { borderBottomColor: course.color + '30' }]}>
                 <TouchableOpacity onPress={onBack} style={styles.backButton}>
@@ -97,11 +122,20 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
                 </TouchableOpacity>
 
                 <View style={styles.lessonTypeRow}>
-                    <View style={[styles.typeBadge, { backgroundColor: isArticle ? '#E67E22' + '25' : '#3498DB' + '25' }]}>
-                        <Text style={[styles.typeBadgeText, { color: isArticle ? '#E67E22' : '#3498DB' }]}>
+                    <View style={[styles.typeBadge, {
+                        backgroundColor: isArticle ? '#E67E22' + '25' : '#3498DB' + '25',
+                    }]}>
+                        <Text style={[styles.typeBadgeText, {
+                            color: isArticle ? '#E67E22' : '#3498DB',
+                        }]}>
                             {isArticle ? '📄 Article' : '▶ Video'}
                         </Text>
                     </View>
+                    {isComplete && (
+                        <View style={styles.completeBadge}>
+                            <Text style={styles.completeBadgeText}>✓ Completed</Text>
+                        </View>
+                    )}
                 </View>
 
                 <Text style={[styles.lessonTitle, { color: course.color }]} numberOfLines={2}>
@@ -115,7 +149,6 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
             {/* Content Area */}
             <View style={styles.contentArea}>
                 {isArticle ? (
-                    // Article: WebView with info banner
                     <>
                         <View style={styles.articleBanner}>
                             <Text style={styles.articleBannerIcon}>📄</Text>
@@ -145,7 +178,6 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
                         )}
                     </>
                 ) : hasVideo ? (
-                    // Video: YouTube embed
                     <WebView
                         source={{ html: videoHtml((lesson as any).youtubeVideoId) }}
                         style={styles.webview}
@@ -158,7 +190,6 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
                         allowsInlineMediaPlayback={true}
                     />
                 ) : (
-                    // No video available
                     <View style={styles.noContent}>
                         <Text style={styles.noContentEmoji}>📹</Text>
                         <Text style={styles.noContentText}>Video not available yet.</Text>
@@ -179,14 +210,38 @@ const LessonDetailScreen: React.FC<LessonDetailScreenProps> = ({
                 )}
             </View>
 
-            {/* Video info section (only for videos) */}
-            {!isArticle && hasVideo && (
-                <View style={styles.videoInfo}>
-                    <Text style={styles.videoInfoTitle}>{(lesson as any).youtubeTitle || lesson.title}</Text>
-                    <Text style={styles.videoInfoChannel}>Khan Academy</Text>
-                </View>
-            )}
-        </View>
+            {/* Bottom bar: video info + Mark Complete */}
+            <View style={styles.bottomBar}>
+                {/* Video info */}
+                {!isArticle && hasVideo && (
+                    <View style={styles.videoInfo}>
+                        <Text style={styles.videoInfoTitle} numberOfLines={1}>
+                            {(lesson as any).youtubeTitle || lesson.title}
+                        </Text>
+                        <Text style={styles.videoInfoChannel}>Khan Academy</Text>
+                    </View>
+                )}
+
+                {/* Mark as Complete button */}
+                <Animated.View style={{ transform: [{ scale: btnScale }], flex: isArticle || !hasVideo ? 1 : undefined }}>
+                    <TouchableOpacity
+                        style={[
+                            styles.completeBtn,
+                            isComplete && styles.completeBtnDone,
+                        ]}
+                        onPress={handleToggleComplete}
+                        activeOpacity={0.7}
+                    >
+                        <Text style={[
+                            styles.completeBtnText,
+                            isComplete && styles.completeBtnTextDone,
+                        ]}>
+                            {isComplete ? '✓ Completed' : '○ Mark as Complete'}
+                        </Text>
+                    </TouchableOpacity>
+                </Animated.View>
+            </View>
+        </Animated.View>
     );
 };
 
@@ -213,6 +268,7 @@ const styles = StyleSheet.create({
     lessonTypeRow: {
         flexDirection: 'row',
         marginBottom: 8,
+        alignItems: 'center',
     },
     typeBadge: {
         paddingHorizontal: 10,
@@ -223,6 +279,18 @@ const styles = StyleSheet.create({
         fontSize: 12,
         fontWeight: '700',
         letterSpacing: 0.5,
+    },
+    completeBadge: {
+        paddingHorizontal: 10,
+        paddingVertical: 4,
+        borderRadius: 8,
+        backgroundColor: '#4CD96420',
+        marginLeft: 8,
+    },
+    completeBadgeText: {
+        fontSize: 12,
+        fontWeight: '700',
+        color: '#4CD964',
     },
     lessonTitle: {
         fontSize: 22,
@@ -302,22 +370,50 @@ const styles = StyleSheet.create({
         marginTop: 12,
         fontWeight: '600',
     },
-    videoInfo: {
-        paddingHorizontal: 24,
-        paddingVertical: 16,
+    bottomBar: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 20,
+        paddingVertical: 14,
         borderTopWidth: 1,
         borderTopColor: '#1D1F33',
+        backgroundColor: '#0D1127',
+    },
+    videoInfo: {
+        flex: 1,
+        marginRight: 12,
     },
     videoInfoTitle: {
-        fontSize: 15,
+        fontSize: 14,
         fontWeight: '700',
         color: '#FFFFFF',
-        marginBottom: 4,
+        marginBottom: 2,
     },
     videoInfoChannel: {
-        fontSize: 13,
+        fontSize: 12,
         color: '#6C7293',
         fontWeight: '500',
+    },
+    completeBtn: {
+        backgroundColor: '#1D1F33',
+        borderRadius: 12,
+        paddingHorizontal: 20,
+        paddingVertical: 12,
+        alignItems: 'center',
+        borderWidth: 1,
+        borderColor: '#2D2F45',
+    },
+    completeBtnDone: {
+        backgroundColor: '#4CD96418',
+        borderColor: '#4CD96440',
+    },
+    completeBtnText: {
+        fontSize: 14,
+        fontWeight: '700',
+        color: '#FFFFFF',
+    },
+    completeBtnTextDone: {
+        color: '#4CD964',
     },
     errorContainer: {
         flex: 1,
