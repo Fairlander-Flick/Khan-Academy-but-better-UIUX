@@ -1,0 +1,1888 @@
+{
+  "courses": [
+    {
+      "id": "differential_calculus",
+      "title": "Differential Calculus",
+      "icon": "function-variant",
+      "color": "#1B7A4A",
+      "units": [
+        {
+          "id": "dc_u1",
+          "title": "Unit 1: Limits and continuity",
+          "playlistId": "",
+          "quizGeneratorId": "limits",
+          "lessons": [
+            {
+              "id": "dc_u1_01",
+              "title": "Limits intro"
+            },
+            {
+              "id": "dc_u1_02",
+              "title": "Estimating limits from graphs"
+            },
+            {
+              "id": "dc_u1_03",
+              "title": "Estimating limits from tables"
+            },
+            {
+              "id": "dc_u1_04",
+              "title": "Formal definition of limits (epsilon-delta)"
+            },
+            {
+              "id": "dc_u1_05",
+              "title": "Properties of limits"
+            },
+            {
+              "id": "dc_u1_06",
+              "title": "Limits by direct substitution"
+            },
+            {
+              "id": "dc_u1_07",
+              "title": "Limits using algebraic manipulation"
+            },
+            {
+              "id": "dc_u1_08",
+              "title": "Strategy in finding limits"
+            },
+            {
+              "id": "dc_u1_09",
+              "title": "Squeeze theorem"
+            },
+            {
+              "id": "dc_u1_10",
+              "title": "Types of discontinuities"
+            },
+            {
+              "id": "dc_u1_11",
+              "title": "Continuity at a point"
+            },
+            {
+              "id": "dc_u1_12",
+              "title": "Continuity over an interval"
+            },
+            {
+              "id": "dc_u1_13",
+              "title": "Removing discontinuities"
+            },
+            {
+              "id": "dc_u1_14",
+              "title": "Infinite limits"
+            },
+            {
+              "id": "dc_u1_15",
+              "title": "Limits at infinity"
+            },
+            {
+              "id": "dc_u1_16",
+              "title": "Intermediate value theorem"
+            }
+          ]
+        },
+        {
+          "id": "dc_u2",
+          "title": "Unit 2: Derivatives: definition and basic rules",
+          "playlistId": "",
+          "quizGeneratorId": "derivatives_basic",
+          "lessons": [
+            {
+              "id": "dc_u2_01",
+              "title": "Average vs. instantaneous rate of change"
+            },
+            {
+              "id": "dc_u2_02",
+              "title": "Secant lines"
+            },
+            {
+              "id": "dc_u2_03",
+              "title": "Derivative definition"
+            },
+            {
+              "id": "dc_u2_04",
+              "title": "Estimating derivatives"
+            },
+            {
+              "id": "dc_u2_05",
+              "title": "Differentiability"
+            },
+            {
+              "id": "dc_u2_06",
+              "title": "Power rule"
+            },
+            {
+              "id": "dc_u2_07",
+              "title": "Derivative rules: constant, sum, difference, and constant multiple"
+            },
+            {
+              "id": "dc_u2_08",
+              "title": "Combining the power rule with other derivative rules"
+            },
+            {
+              "id": "dc_u2_09",
+              "title": "Derivatives of cos(x), sin(x), eˣ, and ln(x)"
+            },
+            {
+              "id": "dc_u2_10",
+              "title": "Product rule"
+            },
+            {
+              "id": "dc_u2_11",
+              "title": "Quotient rule"
+            },
+            {
+              "id": "dc_u2_12",
+              "title": "Derivatives of tan(x), cot(x), sec(x), and csc(x)"
+            },
+            {
+              "id": "dc_u2_13",
+              "title": "Proof videos"
+            }
+          ]
+        },
+        {
+          "id": "dc_u3",
+          "title": "Unit 3: Derivatives: chain rule and other advanced topics",
+          "playlistId": "",
+          "quizGeneratorId": "derivatives_advanced",
+          "lessons": [
+            {
+              "id": "dc_u3_01",
+              "title": "Chain rule"
+            },
+            {
+              "id": "dc_u3_02",
+              "title": "More chain rule practice"
+            },
+            {
+              "id": "dc_u3_03",
+              "title": "Implicit differentiation"
+            },
+            {
+              "id": "dc_u3_04",
+              "title": "Implicit differentiation (advanced examples)"
+            },
+            {
+              "id": "dc_u3_05",
+              "title": "Differentiating inverse functions"
+            },
+            {
+              "id": "dc_u3_06",
+              "title": "Derivatives of inverse trigonometric functions"
+            },
+            {
+              "id": "dc_u3_07",
+              "title": "Strategy in differentiating functions"
+            },
+            {
+              "id": "dc_u3_08",
+              "title": "Differentiation using multiple rules"
+            },
+            {
+              "id": "dc_u3_09",
+              "title": "Second derivatives"
+            },
+            {
+              "id": "dc_u3_10",
+              "title": "Disguised derivatives"
+            },
+            {
+              "id": "dc_u3_11",
+              "title": "Logarithmic differentiation"
+            },
+            {
+              "id": "dc_u3_12",
+              "title": "Proof videos"
+            }
+          ]
+        },
+        {
+          "id": "dc_u4",
+          "title": "Unit 4: Applications of derivatives",
+          "playlistId": "",
+          "quizGeneratorId": "derivatives_applications",
+          "lessons": [
+            {
+              "id": "dc_u4_01",
+              "title": "Meaning of the derivative in context"
+            },
+            {
+              "id": "dc_u4_02",
+              "title": "Straight-line motion"
+            },
+            {
+              "id": "dc_u4_03",
+              "title": "Non-motion applications of derivatives"
+            },
+            {
+              "id": "dc_u4_04",
+              "title": "Introduction to related rates"
+            },
+            {
+              "id": "dc_u4_05",
+              "title": "Solving related rates problems"
+            },
+            {
+              "id": "dc_u4_06",
+              "title": "Approximation with local linearity"
+            },
+            {
+              "id": "dc_u4_07",
+              "title": "L'Hôpital's rule"
+            },
+            {
+              "id": "dc_u4_08",
+              "title": "L'Hôpital's rule: composite exponential functions"
+            }
+          ]
+        },
+        {
+          "id": "dc_u5",
+          "title": "Unit 5: Analyzing functions",
+          "playlistId": "",
+          "quizGeneratorId": "analyzing_functions",
+          "lessons": [
+            {
+              "id": "dc_u5_01",
+              "title": "Mean value theorem"
+            },
+            {
+              "id": "dc_u5_02",
+              "title": "Extreme value theorem and critical points"
+            },
+            {
+              "id": "dc_u5_03",
+              "title": "Intervals on which a function is increasing or decreasing"
+            },
+            {
+              "id": "dc_u5_04",
+              "title": "Relative (local) extrema"
+            },
+            {
+              "id": "dc_u5_05",
+              "title": "Absolute (global) extrema"
+            },
+            {
+              "id": "dc_u5_06",
+              "title": "Concavity and inflection points intro"
+            },
+            {
+              "id": "dc_u5_07",
+              "title": "Analyzing concavity and inflection points"
+            },
+            {
+              "id": "dc_u5_08",
+              "title": "Second derivative test"
+            },
+            {
+              "id": "dc_u5_09",
+              "title": "Sketching curves"
+            },
+            {
+              "id": "dc_u5_10",
+              "title": "Connecting f, f', and f''"
+            },
+            {
+              "id": "dc_u5_11",
+              "title": "Solving optimization problems"
+            },
+            {
+              "id": "dc_u5_12",
+              "title": "Analyzing implicit relations"
+            },
+            {
+              "id": "dc_u5_13",
+              "title": "Calculator-active practice"
+            }
+          ]
+        },
+        {
+          "id": "dc_u6",
+          "title": "Unit 6: Parametric equations, polar coordinates, and vector-valued functions",
+          "playlistId": "",
+          "quizGeneratorId": "parametric_polar_vectors",
+          "lessons": [
+            {
+              "id": "dc_u6_01",
+              "title": "Parametric equations intro"
+            },
+            {
+              "id": "dc_u6_02",
+              "title": "Second derivatives of parametric equations"
+            },
+            {
+              "id": "dc_u6_03",
+              "title": "Vector-valued functions"
+            },
+            {
+              "id": "dc_u6_04",
+              "title": "Planar motion"
+            },
+            {
+              "id": "dc_u6_05",
+              "title": "Polar functions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "differential_equations",
+      "title": "Differential Equations",
+      "icon": "math-integral",
+      "color": "#9B59B6",
+      "units": [
+        {
+          "id": "de_u1",
+          "title": "Unit 1: First order differential equations",
+          "playlistId": "",
+          "quizGeneratorId": "diff_eq_first_order",
+          "lessons": [
+            {
+              "id": "de_u1_01",
+              "title": "Intro to differential equations"
+            },
+            {
+              "id": "de_u1_02",
+              "title": "Slope fields"
+            },
+            {
+              "id": "de_u1_03",
+              "title": "Euler's Method"
+            },
+            {
+              "id": "de_u1_04",
+              "title": "Separable equations"
+            },
+            {
+              "id": "de_u1_05",
+              "title": "Exponential models"
+            },
+            {
+              "id": "de_u1_06",
+              "title": "Logistic models"
+            },
+            {
+              "id": "de_u1_07",
+              "title": "Exact equations and integrating factors"
+            },
+            {
+              "id": "de_u1_08",
+              "title": "Homogeneous equations"
+            }
+          ]
+        },
+        {
+          "id": "de_u2",
+          "title": "Unit 2: Second order linear equations",
+          "playlistId": "",
+          "quizGeneratorId": "diff_eq_second_order",
+          "lessons": [
+            {
+              "id": "de_u2_01",
+              "title": "Linear homogeneous equations"
+            },
+            {
+              "id": "de_u2_02",
+              "title": "Complex and repeated roots of characteristic equation"
+            },
+            {
+              "id": "de_u2_03",
+              "title": "Method of undetermined coefficients"
+            }
+          ]
+        },
+        {
+          "id": "de_u3",
+          "title": "Unit 3: Laplace transform",
+          "playlistId": "",
+          "quizGeneratorId": "laplace_transforms",
+          "lessons": [
+            {
+              "id": "de_u3_01",
+              "title": "Laplace transform"
+            },
+            {
+              "id": "de_u3_02",
+              "title": "Properties of the Laplace transform"
+            },
+            {
+              "id": "de_u3_03",
+              "title": "Laplace transform to solve a differential equation"
+            },
+            {
+              "id": "de_u3_04",
+              "title": "The convolution integral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integral_calculus",
+      "title": "Integral Calculus",
+      "icon": "math-integral-box",
+      "color": "#2980B9",
+      "units": [
+        {
+          "id": "ic_u1",
+          "title": "Unit 1: Integrals",
+          "playlistId": "",
+          "quizGeneratorId": "integrals_basic",
+          "lessons": [
+            {
+              "id": "ic_u1_01",
+              "title": "Accumulations of change introduction"
+            },
+            {
+              "id": "ic_u1_02",
+              "title": "Approximation with Riemann sums"
+            },
+            {
+              "id": "ic_u1_03",
+              "title": "Summation notation review"
+            },
+            {
+              "id": "ic_u1_04",
+              "title": "Riemann sums in summation notation"
+            },
+            {
+              "id": "ic_u1_05",
+              "title": "Defining integrals with Riemann sums"
+            },
+            {
+              "id": "ic_u1_06",
+              "title": "Fundamental theorem of calculus and accumulation functions"
+            },
+            {
+              "id": "ic_u1_07",
+              "title": "Interpreting the behavior of accumulation functions"
+            },
+            {
+              "id": "ic_u1_08",
+              "title": "Properties of definite integrals"
+            },
+            {
+              "id": "ic_u1_09",
+              "title": "Fundamental theorem of calculus and definite integrals"
+            },
+            {
+              "id": "ic_u1_10",
+              "title": "Reverse power rule"
+            },
+            {
+              "id": "ic_u1_11",
+              "title": "Indefinite integrals of common functions"
+            },
+            {
+              "id": "ic_u1_12",
+              "title": "Definite integrals of common functions"
+            },
+            {
+              "id": "ic_u1_13",
+              "title": "Integrating with u-substitution"
+            },
+            {
+              "id": "ic_u1_14",
+              "title": "Integrating using long division and completing the square"
+            },
+            {
+              "id": "ic_u1_15",
+              "title": "Integrating using trigonometric identities"
+            },
+            {
+              "id": "ic_u1_16",
+              "title": "Trigonometric substitution"
+            },
+            {
+              "id": "ic_u1_17",
+              "title": "Integration by parts"
+            },
+            {
+              "id": "ic_u1_18",
+              "title": "Integrating using linear partial fractions"
+            },
+            {
+              "id": "ic_u1_19",
+              "title": "Improper integrals"
+            },
+            {
+              "id": "ic_u1_20",
+              "title": "Proof videos"
+            }
+          ]
+        },
+        {
+          "id": "ic_u2",
+          "title": "Unit 2: Differential equations",
+          "playlistId": "",
+          "quizGeneratorId": "ic_diff_eq",
+          "lessons": [
+            {
+              "id": "ic_u2_01",
+              "title": "Differential equations introduction"
+            },
+            {
+              "id": "ic_u2_02",
+              "title": "Verifying solutions for differential equations"
+            },
+            {
+              "id": "ic_u2_03",
+              "title": "Sketching slope fields"
+            },
+            {
+              "id": "ic_u2_04",
+              "title": "Reasoning using slope fields"
+            },
+            {
+              "id": "ic_u2_05",
+              "title": "Approximation with Euler's method"
+            },
+            {
+              "id": "ic_u2_06",
+              "title": "Separation of variables"
+            },
+            {
+              "id": "ic_u2_07",
+              "title": "Particular solutions to differential equations"
+            },
+            {
+              "id": "ic_u2_08",
+              "title": "Exponential models"
+            },
+            {
+              "id": "ic_u2_09",
+              "title": "Logistic models"
+            }
+          ]
+        },
+        {
+          "id": "ic_u3",
+          "title": "Unit 3: Applications of integrals",
+          "playlistId": "",
+          "quizGeneratorId": "integrals_applications",
+          "lessons": [
+            {
+              "id": "ic_u3_01",
+              "title": "Average value of a function"
+            },
+            {
+              "id": "ic_u3_02",
+              "title": "Straight-line motion"
+            },
+            {
+              "id": "ic_u3_03",
+              "title": "Non-motion applications of integrals"
+            },
+            {
+              "id": "ic_u3_04",
+              "title": "Area: vertical area between curves"
+            },
+            {
+              "id": "ic_u3_05",
+              "title": "Area: horizontal area between curves"
+            },
+            {
+              "id": "ic_u3_06",
+              "title": "Area: curves that intersect at more than two points"
+            },
+            {
+              "id": "ic_u3_07",
+              "title": "Volume: squares and rectangles cross sections"
+            },
+            {
+              "id": "ic_u3_08",
+              "title": "Volume: triangles and semicircles cross sections"
+            },
+            {
+              "id": "ic_u3_09",
+              "title": "Volume: disc method (revolving around x- and y-axes)"
+            },
+            {
+              "id": "ic_u3_10",
+              "title": "Volume: disc method (revolving around other axes)"
+            },
+            {
+              "id": "ic_u3_11",
+              "title": "Volume: washer method (revolving around x- and y-axes)"
+            },
+            {
+              "id": "ic_u3_12",
+              "title": "Volume: washer method (revolving around other axes)"
+            },
+            {
+              "id": "ic_u3_13",
+              "title": "Arc length"
+            },
+            {
+              "id": "ic_u3_14",
+              "title": "Calculator-active practice"
+            }
+          ]
+        },
+        {
+          "id": "ic_u4",
+          "title": "Unit 4: Parametric equations, polar coordinates, and vector-valued functions",
+          "playlistId": "",
+          "quizGeneratorId": "ic_parametric_polar",
+          "lessons": [
+            {
+              "id": "ic_u4_01",
+              "title": "Arc length: parametric curves"
+            },
+            {
+              "id": "ic_u4_02",
+              "title": "Planar motion"
+            },
+            {
+              "id": "ic_u4_03",
+              "title": "Area: polar regions (single curve)"
+            },
+            {
+              "id": "ic_u4_04",
+              "title": "Area: polar regions (two curves)"
+            },
+            {
+              "id": "ic_u4_05",
+              "title": "Arc length: polar curves"
+            },
+            {
+              "id": "ic_u4_06",
+              "title": "Calculator-active practice"
+            }
+          ]
+        },
+        {
+          "id": "ic_u5",
+          "title": "Unit 5: Series",
+          "playlistId": "",
+          "quizGeneratorId": "series",
+          "lessons": [
+            {
+              "id": "ic_u5_01",
+              "title": "Convergent and divergent infinite series"
+            },
+            {
+              "id": "ic_u5_02",
+              "title": "Infinite geometric series"
+            },
+            {
+              "id": "ic_u5_03",
+              "title": "nth-term test"
+            },
+            {
+              "id": "ic_u5_04",
+              "title": "Integral test"
+            },
+            {
+              "id": "ic_u5_05",
+              "title": "Harmonic series and p-series"
+            },
+            {
+              "id": "ic_u5_06",
+              "title": "Comparison tests"
+            },
+            {
+              "id": "ic_u5_07",
+              "title": "Alternating series test"
+            },
+            {
+              "id": "ic_u5_08",
+              "title": "Ratio test"
+            },
+            {
+              "id": "ic_u5_09",
+              "title": "Absolute and conditional convergence"
+            },
+            {
+              "id": "ic_u5_10",
+              "title": "Alternating series error bound"
+            },
+            {
+              "id": "ic_u5_11",
+              "title": "Taylor and Maclaurin polynomials intro"
+            },
+            {
+              "id": "ic_u5_12",
+              "title": "Lagrange error bound"
+            },
+            {
+              "id": "ic_u5_13",
+              "title": "Power series intro"
+            },
+            {
+              "id": "ic_u5_14",
+              "title": "Function as a geometric series"
+            },
+            {
+              "id": "ic_u5_15",
+              "title": "Maclaurin series of eˣ, sin(x), and cos(x)"
+            },
+            {
+              "id": "ic_u5_16",
+              "title": "Representing functions as power series"
+            },
+            {
+              "id": "ic_u5_17",
+              "title": "Telescoping series"
+            },
+            {
+              "id": "ic_u5_18",
+              "title": "Proof videos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linear_algebra",
+      "title": "Linear Algebra",
+      "icon": "matrix",
+      "color": "#E67E22",
+      "units": [
+        {
+          "id": "la_u1",
+          "title": "Unit 1: Vectors and spaces",
+          "playlistId": "",
+          "quizGeneratorId": "vectors_spaces",
+          "lessons": [
+            {
+              "id": "la_u1_01",
+              "title": "Vectors"
+            },
+            {
+              "id": "la_u1_02",
+              "title": "Linear combinations and spans"
+            },
+            {
+              "id": "la_u1_03",
+              "title": "Linear dependence and independence"
+            },
+            {
+              "id": "la_u1_04",
+              "title": "Subspaces and the basis for a subspace"
+            },
+            {
+              "id": "la_u1_05",
+              "title": "Vector dot and cross products"
+            },
+            {
+              "id": "la_u1_06",
+              "title": "Matrices for solving systems by elimination"
+            },
+            {
+              "id": "la_u1_07",
+              "title": "Null space and column space"
+            }
+          ]
+        },
+        {
+          "id": "la_u2",
+          "title": "Unit 2: Matrix transformations",
+          "playlistId": "",
+          "quizGeneratorId": "matrix_transforms",
+          "lessons": [
+            {
+              "id": "la_u2_01",
+              "title": "Functions and linear transformations"
+            },
+            {
+              "id": "la_u2_02",
+              "title": "Linear transformation examples"
+            },
+            {
+              "id": "la_u2_03",
+              "title": "Transformations and matrix multiplication"
+            },
+            {
+              "id": "la_u2_04",
+              "title": "Inverse functions and transformations"
+            },
+            {
+              "id": "la_u2_05",
+              "title": "Finding inverses and determinants"
+            },
+            {
+              "id": "la_u2_06",
+              "title": "More determinant depth"
+            },
+            {
+              "id": "la_u2_07",
+              "title": "Transpose of a matrix"
+            }
+          ]
+        },
+        {
+          "id": "la_u3",
+          "title": "Unit 3: Alternate coordinate systems (bases)",
+          "playlistId": "",
+          "quizGeneratorId": "eigenvalues",
+          "lessons": [
+            {
+              "id": "la_u3_01",
+              "title": "Orthogonal complements"
+            },
+            {
+              "id": "la_u3_02",
+              "title": "Orthogonal projections"
+            },
+            {
+              "id": "la_u3_03",
+              "title": "Change of basis"
+            },
+            {
+              "id": "la_u3_04",
+              "title": "Orthonormal bases and the Gram-Schmidt process"
+            },
+            {
+              "id": "la_u3_05",
+              "title": "Eigen-everything"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multivariable_calculus",
+      "title": "Multivariable Calculus",
+      "icon": "vector-combine",
+      "color": "#16A085",
+      "units": [
+        {
+          "id": "mc_u1",
+          "title": "Unit 1: Thinking about multivariable functions",
+          "playlistId": "",
+          "quizGeneratorId": "multivariable_intro",
+          "lessons": [
+            {
+              "id": "mc_u1_01",
+              "title": "Introduction to multivariable calculus"
+            },
+            {
+              "id": "mc_u1_02",
+              "title": "Vectors and matrices"
+            },
+            {
+              "id": "mc_u1_03",
+              "title": "Visualizing scalar-valued functions"
+            },
+            {
+              "id": "mc_u1_04",
+              "title": "Visualizing vector-valued functions"
+            },
+            {
+              "id": "mc_u1_05",
+              "title": "Transformations"
+            },
+            {
+              "id": "mc_u1_06",
+              "title": "Visualizing multivariable functions (articles)"
+            }
+          ]
+        },
+        {
+          "id": "mc_u2",
+          "title": "Unit 2: Derivatives of multivariable functions",
+          "playlistId": "",
+          "quizGeneratorId": "partial_derivatives",
+          "lessons": [
+            {
+              "id": "mc_u2_01",
+              "title": "Partial derivatives"
+            },
+            {
+              "id": "mc_u2_02",
+              "title": "Gradient and directional derivatives"
+            },
+            {
+              "id": "mc_u2_03",
+              "title": "Partial derivative and gradient (articles)"
+            },
+            {
+              "id": "mc_u2_04",
+              "title": "Differentiating parametric curves"
+            },
+            {
+              "id": "mc_u2_05",
+              "title": "Multivariable chain rule"
+            },
+            {
+              "id": "mc_u2_06",
+              "title": "Curvature"
+            },
+            {
+              "id": "mc_u2_07",
+              "title": "Partial derivatives of vector-valued functions"
+            },
+            {
+              "id": "mc_u2_08",
+              "title": "Differentiating vector-valued functions (articles)"
+            },
+            {
+              "id": "mc_u2_09",
+              "title": "Divergence"
+            },
+            {
+              "id": "mc_u2_10",
+              "title": "Curl"
+            },
+            {
+              "id": "mc_u2_11",
+              "title": "Divergence and curl (articles)"
+            },
+            {
+              "id": "mc_u2_12",
+              "title": "Laplacian"
+            },
+            {
+              "id": "mc_u2_13",
+              "title": "Jacobian"
+            }
+          ]
+        },
+        {
+          "id": "mc_u3",
+          "title": "Unit 3: Applications of multivariable derivatives",
+          "playlistId": "",
+          "quizGeneratorId": "multivariable_applications",
+          "lessons": [
+            {
+              "id": "mc_u3_01",
+              "title": "Tangent planes and local linearization"
+            },
+            {
+              "id": "mc_u3_02",
+              "title": "Quadratic approximations"
+            },
+            {
+              "id": "mc_u3_03",
+              "title": "Optimizing multivariable functions"
+            },
+            {
+              "id": "mc_u3_04",
+              "title": "Optimizing multivariable functions (articles)"
+            },
+            {
+              "id": "mc_u3_05",
+              "title": "Lagrange multipliers and constrained optimization"
+            },
+            {
+              "id": "mc_u3_06",
+              "title": "Constrained optimization (articles)"
+            }
+          ]
+        },
+        {
+          "id": "mc_u4",
+          "title": "Unit 4: Integrating multivariable functions",
+          "playlistId": "",
+          "quizGeneratorId": "multiple_integrals",
+          "lessons": [
+            {
+              "id": "mc_u4_01",
+              "title": "Line integrals for scalar functions"
+            },
+            {
+              "id": "mc_u4_02",
+              "title": "Line integrals for scalar functions (articles)"
+            },
+            {
+              "id": "mc_u4_03",
+              "title": "Line integrals in vector fields"
+            },
+            {
+              "id": "mc_u4_04",
+              "title": "Line integrals in vector fields (articles)"
+            },
+            {
+              "id": "mc_u4_05",
+              "title": "Double integrals"
+            },
+            {
+              "id": "mc_u4_06",
+              "title": "Double integrals (articles)"
+            },
+            {
+              "id": "mc_u4_07",
+              "title": "Triple integrals"
+            },
+            {
+              "id": "mc_u4_08",
+              "title": "Change of variables"
+            },
+            {
+              "id": "mc_u4_09",
+              "title": "Polar, spherical, and cylindrical coordinates"
+            },
+            {
+              "id": "mc_u4_10",
+              "title": "Surface integral preliminaries"
+            },
+            {
+              "id": "mc_u4_11",
+              "title": "Surface integrals"
+            },
+            {
+              "id": "mc_u4_12",
+              "title": "Surface integrals (articles)"
+            },
+            {
+              "id": "mc_u4_13",
+              "title": "Flux in 3D"
+            },
+            {
+              "id": "mc_u4_14",
+              "title": "Flux in 3D (articles)"
+            }
+          ]
+        },
+        {
+          "id": "mc_u5",
+          "title": "Unit 5: Green's, Stokes', and the divergence theorems",
+          "playlistId": "",
+          "quizGeneratorId": "vector_calculus",
+          "lessons": [
+            {
+              "id": "mc_u5_01",
+              "title": "Formal definitions of div and curl (optional reading)"
+            },
+            {
+              "id": "mc_u5_02",
+              "title": "Green's theorem"
+            },
+            {
+              "id": "mc_u5_03",
+              "title": "Green's theorem (articles)"
+            },
+            {
+              "id": "mc_u5_04",
+              "title": "2D divergence theorem"
+            },
+            {
+              "id": "mc_u5_05",
+              "title": "Stokes' theorem"
+            },
+            {
+              "id": "mc_u5_06",
+              "title": "Stokes' theorem (articles)"
+            },
+            {
+              "id": "mc_u5_07",
+              "title": "3D divergence theorem"
+            },
+            {
+              "id": "mc_u5_08",
+              "title": "Divergence theorem (articles)"
+            },
+            {
+              "id": "mc_u5_09",
+              "title": "Proof of Stokes' theorem"
+            },
+            {
+              "id": "mc_u5_10",
+              "title": "Types of regions in three dimensions"
+            },
+            {
+              "id": "mc_u5_11",
+              "title": "Divergence theorem proof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statistics_probability",
+      "title": "Statistics and Probability",
+      "icon": "chart-bell-curve-cumulative",
+      "color": "#E74C3C",
+      "units": [
+        {
+          "id": "sp_u1",
+          "title": "Unit 1: Analyzing categorical data",
+          "playlistId": "",
+          "quizGeneratorId": "categorical_data",
+          "lessons": [
+            {
+              "id": "sp_u1_01",
+              "title": "Analyzing one categorical variable"
+            },
+            {
+              "id": "sp_u1_02",
+              "title": "Two-way tables"
+            },
+            {
+              "id": "sp_u1_03",
+              "title": "Distributions in two-way tables"
+            }
+          ]
+        },
+        {
+          "id": "sp_u2",
+          "title": "Unit 2: Displaying and comparing quantitative data",
+          "playlistId": "",
+          "quizGeneratorId": "quantitative_display",
+          "lessons": [
+            {
+              "id": "sp_u2_01",
+              "title": "Displaying quantitative data with graphs"
+            },
+            {
+              "id": "sp_u2_02",
+              "title": "Describing and comparing distributions"
+            },
+            {
+              "id": "sp_u2_03",
+              "title": "More on data displays"
+            }
+          ]
+        },
+        {
+          "id": "sp_u3",
+          "title": "Unit 3: Summarizing quantitative data",
+          "playlistId": "",
+          "quizGeneratorId": "summarizing_data",
+          "lessons": [
+            {
+              "id": "sp_u3_01",
+              "title": "Measuring center in quantitative data"
+            },
+            {
+              "id": "sp_u3_02",
+              "title": "More on mean and median"
+            },
+            {
+              "id": "sp_u3_03",
+              "title": "Interquartile range (IQR)"
+            },
+            {
+              "id": "sp_u3_04",
+              "title": "Variance and standard deviation of a population"
+            },
+            {
+              "id": "sp_u3_05",
+              "title": "Variance and standard deviation of a sample"
+            },
+            {
+              "id": "sp_u3_06",
+              "title": "More on standard deviation"
+            },
+            {
+              "id": "sp_u3_07",
+              "title": "Box and whisker plots"
+            },
+            {
+              "id": "sp_u3_08",
+              "title": "Other measures of spread"
+            }
+          ]
+        },
+        {
+          "id": "sp_u4",
+          "title": "Unit 4: Modeling data distributions",
+          "playlistId": "",
+          "quizGeneratorId": "modeling_distributions",
+          "lessons": [
+            {
+              "id": "sp_u4_01",
+              "title": "Percentiles"
+            },
+            {
+              "id": "sp_u4_02",
+              "title": "Z-scores"
+            },
+            {
+              "id": "sp_u4_03",
+              "title": "Effects of linear transformations"
+            },
+            {
+              "id": "sp_u4_04",
+              "title": "Density curves"
+            },
+            {
+              "id": "sp_u4_05",
+              "title": "Normal distributions and the empirical rule"
+            },
+            {
+              "id": "sp_u4_06",
+              "title": "Normal distribution calculations"
+            },
+            {
+              "id": "sp_u4_07",
+              "title": "More on normal distributions"
+            }
+          ]
+        },
+        {
+          "id": "sp_u5",
+          "title": "Unit 5: Exploring bivariate numerical data",
+          "playlistId": "",
+          "quizGeneratorId": "bivariate_data",
+          "lessons": [
+            {
+              "id": "sp_u5_01",
+              "title": "Introduction to scatterplots"
+            },
+            {
+              "id": "sp_u5_02",
+              "title": "Correlation coefficients"
+            },
+            {
+              "id": "sp_u5_03",
+              "title": "Introduction to trend lines"
+            },
+            {
+              "id": "sp_u5_04",
+              "title": "Least-squares regression equations"
+            },
+            {
+              "id": "sp_u5_05",
+              "title": "Assessing the fit in least-squares regression"
+            },
+            {
+              "id": "sp_u5_06",
+              "title": "More on regression"
+            }
+          ]
+        },
+        {
+          "id": "sp_u6",
+          "title": "Unit 6: Study design",
+          "playlistId": "",
+          "quizGeneratorId": "study_design",
+          "lessons": [
+            {
+              "id": "sp_u6_01",
+              "title": "Statistical questions"
+            },
+            {
+              "id": "sp_u6_02",
+              "title": "Sampling and observational studies"
+            },
+            {
+              "id": "sp_u6_03",
+              "title": "Sampling methods"
+            },
+            {
+              "id": "sp_u6_04",
+              "title": "Types of studies (experimental vs. observational)"
+            },
+            {
+              "id": "sp_u6_05",
+              "title": "Experiments"
+            }
+          ]
+        },
+        {
+          "id": "sp_u7",
+          "title": "Unit 7: Probability",
+          "playlistId": "",
+          "quizGeneratorId": "probability",
+          "lessons": [
+            {
+              "id": "sp_u7_01",
+              "title": "Basic theoretical probability"
+            },
+            {
+              "id": "sp_u7_02",
+              "title": "Probability using sample spaces"
+            },
+            {
+              "id": "sp_u7_03",
+              "title": "Basic set operations"
+            },
+            {
+              "id": "sp_u7_04",
+              "title": "Experimental probability"
+            },
+            {
+              "id": "sp_u7_05",
+              "title": "Randomness, probability, and simulation"
+            },
+            {
+              "id": "sp_u7_06",
+              "title": "Addition rule"
+            },
+            {
+              "id": "sp_u7_07",
+              "title": "Multiplication rule for independent events"
+            },
+            {
+              "id": "sp_u7_08",
+              "title": "Multiplication rule for dependent events"
+            },
+            {
+              "id": "sp_u7_09",
+              "title": "Conditional probability and independence"
+            }
+          ]
+        },
+        {
+          "id": "sp_u8",
+          "title": "Unit 8: Counting, permutations, and combinations",
+          "playlistId": "",
+          "quizGeneratorId": "counting_combinatorics",
+          "lessons": [
+            {
+              "id": "sp_u8_01",
+              "title": "Counting principle and factorial"
+            },
+            {
+              "id": "sp_u8_02",
+              "title": "Permutations"
+            },
+            {
+              "id": "sp_u8_03",
+              "title": "Combinations"
+            },
+            {
+              "id": "sp_u8_04",
+              "title": "Combinatorics and probability"
+            }
+          ]
+        },
+        {
+          "id": "sp_u9",
+          "title": "Unit 9: Random variables",
+          "playlistId": "",
+          "quizGeneratorId": "random_variables",
+          "lessons": [
+            {
+              "id": "sp_u9_01",
+              "title": "Discrete random variables"
+            },
+            {
+              "id": "sp_u9_02",
+              "title": "Continuous random variables"
+            },
+            {
+              "id": "sp_u9_03",
+              "title": "Transforming random variables"
+            },
+            {
+              "id": "sp_u9_04",
+              "title": "Combining random variables"
+            },
+            {
+              "id": "sp_u9_05",
+              "title": "Binomial random variables"
+            },
+            {
+              "id": "sp_u9_06",
+              "title": "Binomial mean and standard deviation formulas"
+            },
+            {
+              "id": "sp_u9_07",
+              "title": "Geometric random variables"
+            },
+            {
+              "id": "sp_u9_08",
+              "title": "More on expected value"
+            },
+            {
+              "id": "sp_u9_09",
+              "title": "Poisson distribution"
+            }
+          ]
+        },
+        {
+          "id": "sp_u10",
+          "title": "Unit 10: Sampling distributions",
+          "playlistId": "",
+          "quizGeneratorId": "sampling_distributions",
+          "lessons": [
+            {
+              "id": "sp_u10_01",
+              "title": "What is a sampling distribution?"
+            },
+            {
+              "id": "sp_u10_02",
+              "title": "Sampling distribution of a sample proportion"
+            },
+            {
+              "id": "sp_u10_03",
+              "title": "Sampling distribution of a sample mean"
+            }
+          ]
+        },
+        {
+          "id": "sp_u11",
+          "title": "Unit 11: Confidence intervals",
+          "playlistId": "",
+          "quizGeneratorId": "confidence_intervals",
+          "lessons": [
+            {
+              "id": "sp_u11_01",
+              "title": "Introduction to confidence intervals"
+            },
+            {
+              "id": "sp_u11_02",
+              "title": "Estimating a population proportion"
+            },
+            {
+              "id": "sp_u11_03",
+              "title": "Estimating a population mean"
+            },
+            {
+              "id": "sp_u11_04",
+              "title": "More confidence interval videos"
+            }
+          ]
+        },
+        {
+          "id": "sp_u12",
+          "title": "Unit 12: Significance tests (hypothesis testing)",
+          "playlistId": "",
+          "quizGeneratorId": "hypothesis_testing",
+          "lessons": [
+            {
+              "id": "sp_u12_01",
+              "title": "The idea of significance tests"
+            },
+            {
+              "id": "sp_u12_02",
+              "title": "Error probabilities and power"
+            },
+            {
+              "id": "sp_u12_03",
+              "title": "Tests about a population proportion"
+            },
+            {
+              "id": "sp_u12_04",
+              "title": "Tests about a population mean"
+            },
+            {
+              "id": "sp_u12_05",
+              "title": "More significance testing videos"
+            }
+          ]
+        },
+        {
+          "id": "sp_u13",
+          "title": "Unit 13: Two-sample inference for the difference between groups",
+          "playlistId": "",
+          "quizGeneratorId": "two_sample_inference",
+          "lessons": [
+            {
+              "id": "sp_u13_01",
+              "title": "Comparing two proportions"
+            },
+            {
+              "id": "sp_u13_02",
+              "title": "Comparing two means"
+            }
+          ]
+        },
+        {
+          "id": "sp_u14",
+          "title": "Unit 14: Inference for categorical data (chi-square tests)",
+          "playlistId": "",
+          "quizGeneratorId": "chi_square",
+          "lessons": [
+            {
+              "id": "sp_u14_01",
+              "title": "Chi-square goodness-of-fit tests"
+            },
+            {
+              "id": "sp_u14_02",
+              "title": "Chi-square tests for relationships"
+            }
+          ]
+        },
+        {
+          "id": "sp_u15",
+          "title": "Unit 15: Advanced regression (inference and transforming)",
+          "playlistId": "",
+          "quizGeneratorId": "advanced_regression",
+          "lessons": [
+            {
+              "id": "sp_u15_01",
+              "title": "Inference about slope"
+            },
+            {
+              "id": "sp_u15_02",
+              "title": "Nonlinear regression"
+            }
+          ]
+        },
+        {
+          "id": "sp_u16",
+          "title": "Unit 16: Analysis of variance (ANOVA)",
+          "playlistId": "",
+          "quizGeneratorId": "anova",
+          "lessons": [
+            {
+              "id": "sp_u16_01",
+              "title": "Analysis of variance (ANOVA)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ap_physics_1",
+      "title": "AP/College Physics 1",
+      "icon": "rocket-launch",
+      "color": "#3498DB",
+      "units": [
+        {
+          "id": "p1_u1",
+          "title": "Unit 1: Kinematics",
+          "playlistId": "",
+          "quizGeneratorId": "kinematics",
+          "lessons": [
+            {
+              "id": "p1_u1_01",
+              "title": "Scalars and vectors in 1D"
+            },
+            {
+              "id": "p1_u1_02",
+              "title": "Visual models of motion"
+            },
+            {
+              "id": "p1_u1_03",
+              "title": "Mathematical models of motion"
+            },
+            {
+              "id": "p1_u1_04",
+              "title": "Motion in 2D"
+            }
+          ]
+        },
+        {
+          "id": "p1_u2",
+          "title": "Unit 2: Force and translational dynamics",
+          "playlistId": "",
+          "quizGeneratorId": "dynamics",
+          "lessons": [
+            {
+              "id": "p1_u2_01",
+              "title": "Forces and systems"
+            },
+            {
+              "id": "p1_u2_02",
+              "title": "Forces and acceleration"
+            },
+            {
+              "id": "p1_u2_03",
+              "title": "Gravitational force"
+            },
+            {
+              "id": "p1_u2_04",
+              "title": "Friction force"
+            },
+            {
+              "id": "p1_u2_05",
+              "title": "Spring force"
+            },
+            {
+              "id": "p1_u2_06",
+              "title": "Circular motion"
+            }
+          ]
+        },
+        {
+          "id": "p1_u3",
+          "title": "Unit 3: Work, energy, and power",
+          "playlistId": "",
+          "quizGeneratorId": "energy_work",
+          "lessons": [
+            {
+              "id": "p1_u3_01",
+              "title": "Translational kinetic energy and work"
+            },
+            {
+              "id": "p1_u3_02",
+              "title": "Potential energy"
+            },
+            {
+              "id": "p1_u3_03",
+              "title": "Conservation of energy"
+            },
+            {
+              "id": "p1_u3_04",
+              "title": "Power"
+            }
+          ]
+        },
+        {
+          "id": "p1_u4",
+          "title": "Unit 4: Linear momentum",
+          "playlistId": "",
+          "quizGeneratorId": "momentum",
+          "lessons": [
+            {
+              "id": "p1_u4_01",
+              "title": "Linear momentum and impulse"
+            },
+            {
+              "id": "p1_u4_02",
+              "title": "Conservation of linear momentum"
+            },
+            {
+              "id": "p1_u4_03",
+              "title": "Center of mass"
+            }
+          ]
+        },
+        {
+          "id": "p1_u5",
+          "title": "Unit 5: Torque and rotational dynamics",
+          "playlistId": "",
+          "quizGeneratorId": "torque_rotation",
+          "lessons": [
+            {
+              "id": "p1_u5_01",
+              "title": "Rotational kinematics"
+            },
+            {
+              "id": "p1_u5_02",
+              "title": "Torque"
+            },
+            {
+              "id": "p1_u5_03",
+              "title": "Newton's second law in rotational form"
+            }
+          ]
+        },
+        {
+          "id": "p1_u6",
+          "title": "Unit 6: Energy and momentum of rotating systems",
+          "playlistId": "",
+          "quizGeneratorId": "rotational_energy",
+          "lessons": [
+            {
+              "id": "p1_u6_01",
+              "title": "Rotational kinetic energy"
+            },
+            {
+              "id": "p1_u6_02",
+              "title": "Angular momentum and angular impulse"
+            },
+            {
+              "id": "p1_u6_03",
+              "title": "Conservation of angular momentum"
+            }
+          ]
+        },
+        {
+          "id": "p1_u7",
+          "title": "Unit 7: Oscillations",
+          "playlistId": "",
+          "quizGeneratorId": "oscillations",
+          "lessons": [
+            {
+              "id": "p1_u7_01",
+              "title": "Simple harmonic oscillators"
+            },
+            {
+              "id": "p1_u7_02",
+              "title": "Period of simple harmonic oscillators"
+            },
+            {
+              "id": "p1_u7_03",
+              "title": "Energy of simple harmonic oscillators"
+            }
+          ]
+        },
+        {
+          "id": "p1_u8",
+          "title": "Unit 8: Fluids",
+          "playlistId": "",
+          "quizGeneratorId": "fluids",
+          "lessons": [
+            {
+              "id": "p1_u8_01",
+              "title": "Density and pressure"
+            },
+            {
+              "id": "p1_u8_02",
+              "title": "Buoyant force"
+            },
+            {
+              "id": "p1_u8_03",
+              "title": "Fluid flow"
+            }
+          ]
+        },
+        {
+          "id": "p1_u9",
+          "title": "Unit 9: AP Physics 1 review",
+          "playlistId": "",
+          "quizGeneratorId": "physics1_review",
+          "lessons": [
+            {
+              "id": "p1_u9_01",
+              "title": "AP Physics 1 concept review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ap_physics_2",
+      "title": "AP/College Physics 2",
+      "icon": "lightning-bolt",
+      "color": "#F39C12",
+      "units": [
+        {
+          "id": "p2_u1",
+          "title": "Unit 1: Thermodynamics",
+          "playlistId": "",
+          "quizGeneratorId": "thermodynamics",
+          "lessons": [
+            {
+              "id": "p2_u1_01",
+              "title": "Gases"
+            },
+            {
+              "id": "p2_u1_02",
+              "title": "Thermal energy and thermal equilibrium"
+            },
+            {
+              "id": "p2_u1_03",
+              "title": "Thermodynamic processes"
+            }
+          ]
+        },
+        {
+          "id": "p2_u2",
+          "title": "Unit 2: Electric force, field, and potential",
+          "playlistId": "",
+          "quizGeneratorId": "electrostatics",
+          "lessons": [
+            {
+              "id": "p2_u2_01",
+              "title": "Electric charge and electric force"
+            },
+            {
+              "id": "p2_u2_02",
+              "title": "Electric fields"
+            },
+            {
+              "id": "p2_u2_03",
+              "title": "Electric potential energy, electric potential, and voltage"
+            }
+          ]
+        },
+        {
+          "id": "p2_u3",
+          "title": "Unit 3: Electric circuits",
+          "playlistId": "",
+          "quizGeneratorId": "circuits",
+          "lessons": [
+            {
+              "id": "p2_u3_01",
+              "title": "Current, resistivity, and Ohm's law"
+            },
+            {
+              "id": "p2_u3_02",
+              "title": "Compound circuits"
+            },
+            {
+              "id": "p2_u3_03",
+              "title": "Circuits with capacitors"
+            }
+          ]
+        },
+        {
+          "id": "p2_u4",
+          "title": "Unit 4: Magnetism and electromagnetism",
+          "playlistId": "",
+          "quizGeneratorId": "magnetism",
+          "lessons": [
+            {
+              "id": "p2_u4_01",
+              "title": "Magnetic fields"
+            },
+            {
+              "id": "p2_u4_02",
+              "title": "Magnetism and moving charges"
+            },
+            {
+              "id": "p2_u4_03",
+              "title": "Magnetism and current-carrying wires"
+            },
+            {
+              "id": "p2_u4_04",
+              "title": "Electromagnetic induction"
+            },
+            {
+              "id": "p2_u4_05",
+              "title": "Magnetic properties of materials"
+            }
+          ]
+        },
+        {
+          "id": "p2_u5",
+          "title": "Unit 5: Geometric optics",
+          "playlistId": "",
+          "quizGeneratorId": "geometric_optics",
+          "lessons": [
+            {
+              "id": "p2_u5_01",
+              "title": "Reflection and mirrors"
+            },
+            {
+              "id": "p2_u5_02",
+              "title": "Mirror formula and magnification"
+            },
+            {
+              "id": "p2_u5_03",
+              "title": "Refraction"
+            },
+            {
+              "id": "p2_u5_04",
+              "title": "Lenses"
+            }
+          ]
+        },
+        {
+          "id": "p2_u6",
+          "title": "Unit 6: Waves, sound, and physical optics",
+          "playlistId": "",
+          "quizGeneratorId": "waves_sound",
+          "lessons": [
+            {
+              "id": "p2_u6_01",
+              "title": "Wave properties"
+            },
+            {
+              "id": "p2_u6_02",
+              "title": "Wave behaviors"
+            },
+            {
+              "id": "p2_u6_03",
+              "title": "Sound"
+            },
+            {
+              "id": "p2_u6_04",
+              "title": "Electromagnetic waves"
+            },
+            {
+              "id": "p2_u6_05",
+              "title": "Diffraction and interference of light"
+            }
+          ]
+        },
+        {
+          "id": "p2_u7",
+          "title": "Unit 7: Modern physics",
+          "playlistId": "",
+          "quizGeneratorId": "modern_physics",
+          "lessons": [
+            {
+              "id": "p2_u7_01",
+              "title": "Wave-particle duality"
+            },
+            {
+              "id": "p2_u7_02",
+              "title": "Atoms and light"
+            },
+            {
+              "id": "p2_u7_03",
+              "title": "Nuclear physics"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
